@@ -1,0 +1,20 @@
+.branches{
+    background-size: cover;
+    padding: 7.5rem 0 2rem;
+    text-align: center;
+    color: var(--secondary);
+    .overly{
+        background: transparent;
+    }
+    .logo{
+        width: 10rem;
+    }
+    .header{
+        font-family: var(--secondary-font);
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: 3px;
+        margin:1.8rem 0;
+    }
+}

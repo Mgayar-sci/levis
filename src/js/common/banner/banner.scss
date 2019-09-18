@@ -1,0 +1,18 @@
+.banner{
+    background-size: cover;
+    padding: 7.5rem 0 2rem;
+    text-align: center;
+    color: var(--secondary);
+
+    .banner-title{
+        font-size: 4.7rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    .banner-subtitle{
+        font-size: 2rem;
+        font-family: var(--secondary-font);
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+}

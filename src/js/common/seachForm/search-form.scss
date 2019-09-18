@@ -1,0 +1,13 @@
+.form-inline{
+    .btn-search{
+        background: transparent;
+        border: 1px solid;
+        border-left: none;
+    }
+
+    input.form-control {
+        border: 1px solid;
+        border-radius: 0;
+        border-right: none;
+    }
+}
