@@ -1,14 +1,13 @@
 import React from 'react';
-import Header from './js/sections/header/Header';
+import Home from './js/pages/home/Home';
+import { BrowserRouter } from 'react-router-dom';
 import './scss/main.scss'
-import Branches from './js/sections/branches/Branches';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Branches />
-    </div>
+    <BrowserRouter>
+      <Home />
+    </BrowserRouter>
   );
 }
 

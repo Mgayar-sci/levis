@@ -1,4 +1,5 @@
 .menu-row{
+    
     margin-top: 0;
     margin-bottom: 1rem;
     list-style: none;
@@ -16,7 +17,7 @@
         margin-bottom: 1rem;
         width: 9rem;
         font-size: .9rem;
-        & a{
+        & .navlink{
             color: inherit;
         }
     }

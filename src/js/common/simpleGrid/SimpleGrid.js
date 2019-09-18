@@ -1,15 +1,15 @@
 import React from 'react';
-import { Grid, Row } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import './simple-grid.scss';
 
 const SimpleGrid = ({ rowProps, gridProps, items = [] }) => {
     const sm = rowProps.sm || (items.lenght) / 12;
     return (
-        <Grid {...gridProps} >
+        <Row {...gridProps} >
             {
-                items.map((i) => <Row {...rowProps} sm={sm} >{i}</Row>)
+                items.map((i) => <Col {...rowProps} sm={sm} >{i}</Col>)
             }
-        </Grid>
+        </Row>
     )
 }
 

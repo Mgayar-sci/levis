@@ -1,0 +1,19 @@
+.category-card{
+    text-align: center;
+    width: 100%;
+
+    .category-img{
+        width: 100%;
+    }
+
+    .link{
+            font-size: 2rem;
+            font-weight: bolder;
+            padding: 1rem;
+            border-bottom: .5rem solid var(--primary);
+            text-transform: uppercase;
+            color: inherit;
+            display: inline-block;
+            text-decoration: none;
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './menu-row.scss';
+import { NavLink } from 'react-router-dom';
 
 const MenuRow = ({ title, links }) => {
     return (
@@ -8,12 +9,12 @@ const MenuRow = ({ title, links }) => {
                 {title}
             </li>
             {
-                links.map(({ href, label }) => {
+                links.map(({ route, label }) => {
                     return (
-                        <li key={href} >
-                            <a href={href}>
+                        <li key={route} >
+                            <NavLink to={route} className="navlink" >
                                 {label}
-                            </a>
+                            </NavLink>
                         </li>
                     )
                 })
