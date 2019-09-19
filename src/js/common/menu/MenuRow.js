@@ -9,9 +9,9 @@ const MenuRow = ({ title, links }) => {
                 {title}
             </li>
             {
-                links.map(({ route, label }) => {
+                links.map(({ route, label },i) => {
                     return (
-                        <li key={route} >
+                        <li key={i} >
                             <NavLink to={route} className="navlink" >
                                 {label}
                             </NavLink>

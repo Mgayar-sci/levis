@@ -3,6 +3,7 @@ import Navigation from '../../common/navigation/Navigation'
 import data from '../../../data';
 import LinksCarousel from '../../common/linksCarousel/LinksCarousel';
 import Banner from '../../common/banner/Banner';
+import { Container } from 'react-bootstrap';
 
 const Header = () => {
     return (
@@ -13,11 +14,11 @@ const Header = () => {
             />
             <LinksCarousel items={data.header.carouselLinks} />
             <div className="my-5" >
-            <Banner
-                title={data.header.banner.title}
-                sub={data.header.banner.sub}
-                background={data.header.banner.background}
-            />
+                <Banner
+                    title={data.header.banner.title}
+                    sub={data.header.banner.sub}
+                    background={data.header.banner.background}
+                />
             </div>
         </header>
     )

@@ -1,5 +1,4 @@
-.carousel-links{
-    
+.carousel-container{
     background: #f9f9f9;
     color:var(--primary);
     .carousel-element{
@@ -16,12 +15,4 @@
             text-transform: uppercase;
         }
     }
-
-    .carousel-indicators li {
-        background-color: var(--primary);
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-    }
 }
-

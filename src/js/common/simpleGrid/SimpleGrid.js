@@ -1,15 +1,17 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import './simple-grid.scss';
 
 const SimpleGrid = ({ rowProps, gridProps, items = [] }) => {
     const sm = rowProps.sm || (items.lenght) / 12;
     return (
-        <Row {...gridProps} >
-            {
-                items.map((i) => <Col {...rowProps} sm={sm} >{i}</Col>)
-            }
-        </Row>
+        <Container fluid >
+            <Row {...gridProps} >
+                {
+                    items.map((i, index) => <Col {...rowProps} sm={sm} key={index} >{i}</Col>)
+                }
+            </Row>
+        </Container>
     )
 }
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Icon } from 'react-icons-kit';
 import { ic_shopping_cart } from 'react-icons-kit/md/ic_shopping_cart'
 import './navigation.scss';
 import SearchForm from '../seachForm/SeachForm';
 import Menu from '../menu/Menu';
+import BaseIcon from '../baseIcon/BaseIcon';
 
 const Navigation = ({ brand, menus }) => {
   return (
@@ -17,12 +17,12 @@ const Navigation = ({ brand, menus }) => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             {
-              menus.map(({ items, title, color }) => <Menu items={items} title={title} color={color} />)
+              menus.map(({ items, title, color },i) => <Menu key={i} items={items} title={title} color={color} />)
             }
           </Nav>
           <SearchForm />
           <div className="cart-container" >
-            <Icon icon={ic_shopping_cart} size={32} />
+            <BaseIcon color="primary" icon={ic_shopping_cart} size="md" />
           </div>
         </Navbar.Collapse>
       </Navbar>

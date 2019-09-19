@@ -1,8 +1,38 @@
 .btn-nav{
     border-radius: 0px;
+    padding: 1rem ;
+    font-size: 1.8rem;
     text-transform: uppercase;
-    padding: 1rem !important ;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: bold !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    display: inline-block;
+
+      &:hover{
+        opacity: .95;
+      }
+
+      &--primary{
+        color: var(--primary);
+        border-color: var(--primary);
+        background: var(--secondary) ;
+        &:hover{
+          color: var(--primary-light);
+        }
+      }
+
+      &--secondary{
+        color: var(--secondary);
+        border-color: var(--secondary);
+        background: var(--primary) ;
+        &:hover{
+          color: var(--secondary-light);
+        }
+      }
+
+      &--outlined{
+        font-size: 2rem !important;
+        font-weight: bolder !important;
+        border-bottom: .5rem solid;
+        background: transparent;
+      }
 }

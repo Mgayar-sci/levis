@@ -1,14 +1,22 @@
 import React from 'react';
 import './nav-button.scss';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-const NavButton = ({ type = "primary",route, children, fullWidth, className, ...otherProps }) => {
+
+const NavButton = ({ variant = "primary", outlined, route, children, fullWidth, className, ...otherProps }) => {
     const style = {
-        width: fullWidth ? '100%' : 'inlien-block',
-        background: type === "primary" ? `var(--secondary)` : `var(--primary)`,
+        width: fullWidth ? '100%' : 'auto',
     }
+    const shape = outlined ? "btn-nav--outlined" : "";
+    const type = variant === "primary" ? "btn-nav--primary" : "btn-nav--secondary";
+    const classes = `${shape} ${type} ${className}`;
+
     return (
-        <NavLink to={route} style={style} {...otherProps} className={`btn btn-nav ${className}`} >
+        <NavLink to={route}
+            style={style}
+            {...otherProps}
+            className={`btn-nav ${classes}`}
+        >
             {children}
         </NavLink>
     )

@@ -23,7 +23,11 @@ const Ad = (props) => {
                 <p className="description">
                     {data.ad.description}
                 </p>
-                <NavButton className="w-25" route={data.ad.link.route}>
+                <NavButton
+                    className="w-25"
+                    route={data.ad.link.route}
+                    variant="primary"
+                >
                     {data.ad.link.label}
                 </NavButton>
             </div>

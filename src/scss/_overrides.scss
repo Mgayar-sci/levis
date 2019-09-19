@@ -1,11 +1,13 @@
 // default color-pallette
 // black:#000000
+// light:#333333
 // white:#ffffff
 
 :root {
     --primary:#000000;
-    --secondary:#ffffff;
     --primary-light:#333333;
+    --secondary:#ffffff;
+    --secondary-light:#bebebe;
     --primary-font:'Cairo, sans-serif';
     --secondary-font:'Gloria Hallelujah', cursive;
   }
@@ -16,4 +18,8 @@
 
   .btn{
     font-size: 1.85rem;
+  }
+
+  .container-fluid{
+    max-width:1800px
   }

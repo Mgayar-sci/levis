@@ -4,7 +4,6 @@ import './branches.scss';
 import SimpleGrid from '../../common/simpleGrid/SimpleGrid';
 import NavButton from '../../common/navButton/NavButton';
 import { Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
 
 const BranchesList = data.branches.branches
     .map(({ route, label }) => <NavButton route={route} fullWidth >{label}</NavButton>);
@@ -17,7 +16,7 @@ const Branches = () => {
     return (
         <div style={style} className="branches" >
             <div className="overly" >
-                <img src={data.branches.logo} className="logo" />
+                <img src={data.branches.logo} className="logo" alt="logo" />
                 <p className="header" >
                     {data.branches.header}
                 </p>
@@ -33,9 +32,9 @@ const Branches = () => {
                         }}
                     />
                 </Container>
-                <NavLink to={data.branches.moreLink.route} className="more" >
+                <NavButton variant="secondary" outlined to={data.branches.moreLink.route} >
                     {data.branches.moreLink.label}
-                </NavLink>
+                </NavButton>
             </div>
         </div>
     )

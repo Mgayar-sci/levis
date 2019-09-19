@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Dropdown } from 'react-bootstrap';
 import './menu.scss';
 import MenuRow from './MenuRow';
@@ -14,9 +14,9 @@ const Menu = ({ items, title, color }) => {
             <Dropdown.Menu>
                 <div className="menu-container">
                     {
-                        items.map(({ title, links }) => {
+                        items.map(({ title, links },i) => {
                             return (
-                                <MenuRow title={title} links={links} key={title} />
+                                <MenuRow title={title} links={links} key={i} />
                             )
                         })
                     }

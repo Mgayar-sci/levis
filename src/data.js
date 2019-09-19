@@ -6,8 +6,18 @@ import kids from '../src/img/kids.png';
 import men from '../src/img/men.png';
 import women from '../src/img/women.png';
 import ad from '../src/img/ad.jpg';
+import finalTouch from '../src/img/final.png';
+import final2 from '../src/img/final2.png';
+import p1 from '../src/img/p1.png';
+import p2 from '../src/img/p2.png';
 
 export default {
+    theme: {
+        'primary': '#000000',
+        'primary-light': '#333333',
+        'secondary': '#ffffff',
+        'secondary-light': '#bebebe',
+    },
     header: {
         navigation: {
             logo: logo,
@@ -580,5 +590,79 @@ export default {
             label: 'shop now',
             route: '/shop'
         }
+    },
+    final:{
+        title:"THE FINAL TOUCH ",
+        sub:"Complete your look with new summer belts, bags and hats.",
+        background:finalTouch,
+        img:final2,
+        links:[
+            {
+                label:"Men’s Accessories",
+                route:"/men"
+            },
+            {
+                label:"woMen’s Accessories",
+                route:"/women"
+            }
+        ]
+    },
+    jeans:{
+        background:ad,
+        header:"Jeans For All",
+        main:"Find your fit",
+        links:[{
+            label:'Men’s jeans guide',
+            route:"/men"
+        },{
+            label:'woMen’s jeans guide',
+            route:"/women"
+        }]
+    },
+    trending:{
+        header:'trending now!',
+        products:[{
+            img:p1,
+            route:"/p1"
+        },{
+            img:p2,
+            route:"/p2"
+        },{
+            img:p1,
+            route:"/p1"
+        },{
+            img:p2,
+            route:"/p2"
+        },{
+            img:p1,
+            route:"/p1"
+        },{
+            img:p2,
+            route:"/p2"
+        },{
+            img:p1,
+            route:"/p1"
+        },{
+            img:p2,
+            route:"/p2"
+        },{
+            img:p1,
+            route:"/p1"
+        },{
+            img:p2,
+            route:"/p2"
+        },{
+            img:p1,
+            route:"/p1"
+        },{
+            img:p2,
+            route:"/p2"
+        },{
+            img:p1,
+            route:"/p1"
+        },{
+            img:p2,
+            route:"/p2"
+        }]
     }
 }

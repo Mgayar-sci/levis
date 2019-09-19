@@ -1,8 +1,8 @@
 import React from 'react';
 import { InputGroup, Form, FormControl } from 'react-bootstrap';
 import { ic_search } from 'react-icons-kit/md/ic_search';
-import { Icon } from 'react-icons-kit';
 import './search-form.scss';
+import BaseIcon from '../baseIcon/BaseIcon';
 
 const SearchForm = () => {
     return (
@@ -13,7 +13,7 @@ const SearchForm = () => {
                 />
                 <InputGroup.Append>
                     <button className="btn-search">
-                        <Icon icon={ic_search} size={20} />
+                        <BaseIcon icon={ic_search} color="primary" size="sm" />
                     </button>
                 </InputGroup.Append>
             </InputGroup>
