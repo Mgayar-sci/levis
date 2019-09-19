@@ -5,8 +5,8 @@ import './input-addon.scss';
 
 const InputAddon = ({ icon, placeholder, btnClass, inputClass, iconProps = {} }) => {
     return (
-        <Form inline>
-            <InputGroup className="mb-3" className={inputClass}  >
+        <Form inline className="mb-3" >
+            <InputGroup className={inputClass}  >
                 <FormControl
                     placeholder={placeholder}
                 />

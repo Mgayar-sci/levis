@@ -12,7 +12,7 @@ const Header = () => {
                 menus={data.header.navigation.menus}
             />
             <LinksCarousel items={data.header.carouselLinks} />
-            <div className="my-5" >
+            <div className="my-5 container-fluid" >
                 <Banner
                     title={data.header.banner.title}
                     sub={data.header.banner.sub}
