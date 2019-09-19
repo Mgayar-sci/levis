@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Ahmed-Abdel-karim/levis/static/css/main.b80272fb.chunk.css",
+    "main.js": "/Ahmed-Abdel-karim/levis/static/js/main.24f54356.chunk.js",
+    "main.js.map": "/Ahmed-Abdel-karim/levis/static/js/main.24f54356.chunk.js.map",
+    "runtime~main.js": "/Ahmed-Abdel-karim/levis/static/js/runtime~main.99b263d1.js",
+    "runtime~main.js.map": "/Ahmed-Abdel-karim/levis/static/js/runtime~main.99b263d1.js.map",
+    "static/js/2.358a9133.chunk.js": "/Ahmed-Abdel-karim/levis/static/js/2.358a9133.chunk.js",
+    "static/js/2.358a9133.chunk.js.map": "/Ahmed-Abdel-karim/levis/static/js/2.358a9133.chunk.js.map",
+    "index.html": "/Ahmed-Abdel-karim/levis/index.html",
+    "precache-manifest.c17b5ec14532eb512fb8ab95b957c7da.js": "/Ahmed-Abdel-karim/levis/precache-manifest.c17b5ec14532eb512fb8ab95b957c7da.js",
+    "service-worker.js": "/Ahmed-Abdel-karim/levis/service-worker.js",
+    "static/css/main.b80272fb.chunk.css.map": "/Ahmed-Abdel-karim/levis/static/css/main.b80272fb.chunk.css.map",
+    "static/media/ad.jpg": "/Ahmed-Abdel-karim/levis/static/media/ad.bfd3ccbe.jpg",
+    "static/media/banner.png": "/Ahmed-Abdel-karim/levis/static/media/banner.71b351d2.png",
+    "static/media/branches.png": "/Ahmed-Abdel-karim/levis/static/media/branches.3084ce8a.png",
+    "static/media/final.png": "/Ahmed-Abdel-karim/levis/static/media/final.9a196567.png",
+    "static/media/final2.png": "/Ahmed-Abdel-karim/levis/static/media/final2.7996a1b4.png",
+    "static/media/kids.png": "/Ahmed-Abdel-karim/levis/static/media/kids.32b351c1.png",
+    "static/media/men.png": "/Ahmed-Abdel-karim/levis/static/media/men.06787a00.png",
+    "static/media/p1.png": "/Ahmed-Abdel-karim/levis/static/media/p1.2865c28b.png",
+    "static/media/p2.png": "/Ahmed-Abdel-karim/levis/static/media/p2.59ba42e0.png",
+    "static/media/women.png": "/Ahmed-Abdel-karim/levis/static/media/women.4c8f47ee.png"
+  }
+}
