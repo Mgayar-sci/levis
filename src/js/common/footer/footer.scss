@@ -1,0 +1,36 @@
+.footer{
+    background: rgb(231, 231, 231);
+    padding: 2rem 0 5rem;
+    .links{
+        border-right: 1px solid silver;
+        .nav-links{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+    .social{
+        margin-top: 5rem;
+        .social-icon{
+            margin-right: 1rem;
+        }
+    }
+    .logo{
+        text-align: right;
+        margin-top: 5rem;
+        .powered-by{
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin: 1rem;
+        }
+        & img{
+            display:inline-block;
+            width: 8rem;
+        }
+        .site-logo{
+            margin-bottom: 2rem;
+        }
+
+    }
+}

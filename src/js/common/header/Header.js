@@ -1,9 +1,8 @@
 import React from 'react'
-import Navigation from '../../common/navigation/Navigation'
+import Navigation from '../navigation/Navigation'
 import data from '../../../data';
-import LinksCarousel from '../../common/linksCarousel/LinksCarousel';
-import Banner from '../../common/banner/Banner';
-import { Container } from 'react-bootstrap';
+import LinksCarousel from '../linksCarousel/LinksCarousel';
+import Banner from '../banner/Banner';
 
 const Header = () => {
     return (

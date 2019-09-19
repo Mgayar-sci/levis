@@ -1,7 +1,7 @@
 import React from 'react';
-import SimpleGrid from '../../common/simpleGrid/SimpleGrid';
+import SimpleGrid from '../simpleGrid/SimpleGrid';
 import data from '../../../data';
-import Categorycard from '../../common/categoryCard/CategoryCard';
+import Categorycard from '../categoryCard/CategoryCard';
 
 const CategoriesList = data.categories.map((i) => <Categorycard {...i} />)
 

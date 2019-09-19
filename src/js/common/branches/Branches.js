@@ -1,8 +1,8 @@
 import React from 'react';
 import data from '../../../data';
 import './branches.scss';
-import SimpleGrid from '../../common/simpleGrid/SimpleGrid';
-import NavButton from '../../common/navButton/NavButton';
+import SimpleGrid from '../simpleGrid/SimpleGrid';
+import NavButton from '../navButton/NavButton';
 import { Container } from 'react-bootstrap';
 
 const BranchesList = data.branches.branches

@@ -10,6 +10,7 @@ import finalTouch from '../src/img/final.png';
 import final2 from '../src/img/final2.png';
 import p1 from '../src/img/p1.png';
 import p2 from '../src/img/p2.png';
+import nasnav from '../src/img/nasnav.png';
 
 export default {
     theme: {
@@ -591,78 +592,165 @@ export default {
             route: '/shop'
         }
     },
-    final:{
-        title:"THE FINAL TOUCH ",
-        sub:"Complete your look with new summer belts, bags and hats.",
-        background:finalTouch,
-        img:final2,
-        links:[
+    final: {
+        title: "THE FINAL TOUCH ",
+        sub: "Complete your look with new summer belts, bags and hats.",
+        background: finalTouch,
+        img: final2,
+        links: [
             {
-                label:"Men’s Accessories",
-                route:"/men"
+                label: "Men’s Accessories",
+                route: "/men"
             },
             {
-                label:"woMen’s Accessories",
-                route:"/women"
+                label: "woMen’s Accessories",
+                route: "/women"
             }
         ]
     },
-    jeans:{
-        background:ad,
-        header:"Jeans For All",
-        main:"Find your fit",
-        links:[{
-            label:'Men’s jeans guide',
-            route:"/men"
-        },{
-            label:'woMen’s jeans guide',
-            route:"/women"
+    jeans: {
+        background: ad,
+        header: "Jeans For All",
+        main: "Find your fit",
+        links: [{
+            label: 'Men’s jeans guide',
+            route: "/men"
+        }, {
+            label: 'woMen’s jeans guide',
+            route: "/women"
         }]
     },
-    trending:{
-        header:'trending now!',
-        products:[{
-            img:p1,
-            route:"/p1"
-        },{
-            img:p2,
-            route:"/p2"
-        },{
-            img:p1,
-            route:"/p1"
-        },{
-            img:p2,
-            route:"/p2"
-        },{
-            img:p1,
-            route:"/p1"
-        },{
-            img:p2,
-            route:"/p2"
-        },{
-            img:p1,
-            route:"/p1"
-        },{
-            img:p2,
-            route:"/p2"
-        },{
-            img:p1,
-            route:"/p1"
-        },{
-            img:p2,
-            route:"/p2"
-        },{
-            img:p1,
-            route:"/p1"
-        },{
-            img:p2,
-            route:"/p2"
-        },{
-            img:p1,
-            route:"/p1"
-        },{
-            img:p2,
-            route:"/p2"
+    trending: {
+        header: 'trending now!',
+        products: [{
+            img: p1,
+            route: "/p1"
+        }, {
+            img: p2,
+            route: "/p2"
+        }, {
+            img: p1,
+            route: "/p1"
+        }, {
+            img: p2,
+            route: "/p2"
+        }, {
+            img: p1,
+            route: "/p1"
+        }, {
+            img: p2,
+            route: "/p2"
+        }, {
+            img: p1,
+            route: "/p1"
+        }, {
+            img: p2,
+            route: "/p2"
+        }, {
+            img: p1,
+            route: "/p1"
+        }, {
+            img: p2,
+            route: "/p2"
+        }, {
+            img: p1,
+            route: "/p1"
+        }, {
+            img: p2,
+            route: "/p2"
+        }, {
+            img: p1,
+            route: "/p1"
+        }, {
+            img: p2,
+            route: "/p2"
         }]
+    },
+    footer: {
+        navLinks: [{
+            header: "Quick links",
+            links: [{
+                label: "return police",
+                route: "/asdad"
+            }, {
+                label: "lorem ipsum",
+                route: "/asdad"
+            }, {
+                label: "doloro sit amit",
+                route: "/asdad"
+            }, {
+                label: "return police",
+                route: "/asdad"
+            }, {
+                label: "doloro sit amit",
+                route: "/asdad"
+            }, {
+                label: "return police",
+                route: "/asdad"
+            }]
+        }, {
+            header: "support",
+            links: [{
+                label: "return police",
+                route: "/asdad"
+            }, {
+                label: "lorem ipsum",
+                route: "/asdad"
+            }, {
+                label: "doloro sit amit",
+                route: "/asdad"
+            }, {
+                label: "return police",
+                route: "/asdad"
+            }, {
+                label: "doloro sit amit",
+                route: "/asdad"
+            }, {
+                label: "return police",
+                route: "/asdad"
+            }]
+        }, {
+            header: "company",
+            links: [{
+                label: "return police",
+                route: "/asdad"
+            }, {
+                label: "lorem ipsum",
+                route: "/asdad"
+            }, {
+                label: "doloro sit amit",
+                route: "/asdad"
+            }, {
+                label: "return police",
+                route: "/asdad"
+            }, {
+                label: "doloro sit amit",
+                route: "/asdad"
+            }, {
+                label: "return police",
+                route: "/asdad"
+            }]
+        }],
+        socialLinks: [{
+            type: "facebook",
+            link: ""
+        }, {
+            type: "twitter",
+            link: ""
+        }, {
+            type: "instagram",
+            link: ""
+        }, {
+            type: "google",
+            link: ""
+        }],
+        subscripe:{
+            header:"it's all about you",
+            body:" lorem ipsum dolor sit amit doli faloi fdali houlid lorem ipsum dolor sit amit doli faloi fdali houlid"
+        },
+        logos:{
+            company:logo,
+            nasnav:nasnav
+        }
     }
 }

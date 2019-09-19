@@ -1,9 +1,9 @@
 import React from 'react';
 import data from '../../../data';
-import NavButton from '../../common/navButton/NavButton';
+import NavButton from '../navButton/NavButton';
 
 import './jeans.scss';
-import Box from '../../common/box/Box';
+import Box from '../box/Box';
 
 const Jeans = (props) => {
     const style = {

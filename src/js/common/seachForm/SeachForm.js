@@ -1,6 +1,5 @@
 import React from 'react';
 import { InputGroup, Form, FormControl } from 'react-bootstrap';
-import { ic_search } from 'react-icons-kit/md/ic_search';
 import './search-form.scss';
 import BaseIcon from '../baseIcon/BaseIcon';
 

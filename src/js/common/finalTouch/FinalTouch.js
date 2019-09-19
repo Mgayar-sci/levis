@@ -1,6 +1,6 @@
 import React from 'react';
 import data from '../../../data';
-import NavButton from '../../common/navButton/NavButton';
+import NavButton from '../navButton/NavButton';
 import { Container, Row, Col } from 'react-bootstrap';
 import './final-touch.scss';
 

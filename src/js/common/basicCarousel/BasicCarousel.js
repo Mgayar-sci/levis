@@ -16,6 +16,7 @@ const BasicCarousel = ({ items, carouselProps, component }) => {
                 nextIcon={NextIcon}
                 prevIcon={PrevIcon}
                 interval={3000}
+                pauseOnHover
                 {...carouselProps}
             >{
                     items.map((item, i) => {

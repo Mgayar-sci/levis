@@ -1,5 +1,5 @@
 import React from 'react';
-import NavButton from '../../common/navButton/NavButton';
+import NavButton from '../navButton/NavButton';
 import data from '../../../data';
 
 import './ad.scss'

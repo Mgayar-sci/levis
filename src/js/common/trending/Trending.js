@@ -1,8 +1,8 @@
 import React from 'react';
 import data from '../../../data';
 import _chunk from 'lodash/chunk';
-import BasicCarousel from '../../common/basicCarousel/BasicCarousel';
-import TrendingCarouselList from '../../common/trendingcarousel/TrendingCarouselList';
+import BasicCarousel from '../basicCarousel/BasicCarousel';
+import TrendingCarouselList from '../trendingcarousel/TrendingCarouselList';
 
 import './trending.scss';
 import { Container } from 'react-bootstrap';

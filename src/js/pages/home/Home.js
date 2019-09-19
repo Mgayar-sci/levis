@@ -1,12 +1,15 @@
 import React from 'react';
-import Header from '../../../js/sections/header/Header';
-import Branches from '../../../js/sections/branches/Branches';
-import Categories from '../../sections/categories/Categories';
-import Ad from '../../sections/ad/Ad';
-import FinalTouch from '../../sections/finalTouch/FinalTouch';
-import Jeans from '../../sections/jeans/Jeans';
-import Trending from '../../sections/trending/Trending';
+import Header from '../../../js/common/header/Header';
+import Branches from '../../../js/common/branches/Branches';
+import Categories from '../../common/categories/Categories';
+import Ad from '../../common/ad/Ad';
+import FinalTouch from '../../common/finalTouch/FinalTouch';
+import Jeans from '../../common/jeans/Jeans';
+import Trending from '../../common/trending/Trending';
 import { Container } from 'react-bootstrap';
+
+import './home.scss';
+import Footer from '../../common/footer/Footer';
 
 function Home() {
     return (
@@ -31,6 +34,7 @@ function Home() {
                 <div className="my-5">
                     <Trending />
                 </div>
+                <Footer />
             </div>
         </Container>
     );
