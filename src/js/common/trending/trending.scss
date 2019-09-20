@@ -1,6 +1,9 @@
 .tending{
     text-align: center;
     color: var(--primary);
+    img{
+        max-height: 80vh !important;
+    }
     .header{
         font-size: 3.5rem;
         text-align: center;

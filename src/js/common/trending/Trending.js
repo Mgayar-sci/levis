@@ -1,24 +1,59 @@
 import React from 'react';
 import data from '../../../data';
-import _chunk from 'lodash/chunk';
-import BasicCarousel from '../basicCarousel/BasicCarousel';
-import TrendingCarouselList from '../trendingcarousel/TrendingCarouselList';
+import { Container } from 'react-bootstrap';
+import TrendingCarousel from '../trendingcarousel/TrendingCarousel';
+import Media from 'react-media';
 
 import './trending.scss';
-import { Container } from 'react-bootstrap';
+
+const sizes = [
+    {
+        minWidth: 0,
+        maxWidth: 400,
+        col: 12,
+        itemsPerView: 1
+    }, {
+        minWidth: 401,
+        maxWidth: 600,
+        col: 6,
+        itemsPerView: 2
+    }, {
+        minWidth: 601,
+        maxWidth: 900,
+        col: 4,
+        itemsPerView: 3
+    }, {
+        minWidth: 901,
+        maxWidth: 1200,
+        col: 3,
+        itemsPerView: 4
+    }, {
+        minWidth: 1201,
+        maxWidth: 50000,
+        col: 2,
+        itemsPerView: 6
+    }
+]
 
 const Trending = (props) => {
-    const items = _chunk(data.trending.products, 6);
     return (
         <div className="tending" >
             <p className="header" >
                 {data.trending.header}
             </p>
             <Container fluid >
-                <BasicCarousel
-                    items={items}
-                    component={({ item }) => <TrendingCarouselList group={item} rowProps={{ sm: 2 }} />}
-                />
+                {
+                    sizes.map(({ maxWidth, minWidth, col, itemsPerView }) => (
+                        <Media query={{ maxWidth, minWidth }}>
+                            {match => match && (
+                                <TrendingCarousel
+                                    col={col}
+                                    items={data.trending.products}
+                                    itemsPerView={itemsPerView}
+                                />)}
+                        </Media>
+                    ))
+                }
             </Container>
         </div>
     )
