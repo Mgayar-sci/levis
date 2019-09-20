@@ -7,6 +7,8 @@ import './final-touch.scss';
 const FinalTouch = (props) => {
     const style = {
         backgroundImage: `url(${data.final.background})`,
+        backgroundColor: "#ffffff94",
+        backgroundBlendMode: "overlay"
     };
 
     return (

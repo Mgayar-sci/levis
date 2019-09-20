@@ -1,19 +1,20 @@
 import React from 'react';
 import NavButton from '../navButton/NavButton';
 import data from '../../../data';
+import Box from '../box/Box';
 
 import './ad.scss'
 
 
 const Ad = (props) => {
 
-    const style = {
-        backgroundImage: `url(${data.ad.background})`,
-    };
-
     return (
-        <div className="ad-container" style={style} >
-            <div className="overlay">
+        <Box
+            height="75vh"
+            backgroundImg={data.ad.background}
+            overlayCol="#00000094"
+        >
+            <div className="ad-container">
                 <p className="title">
                     {data.ad.header}
                 </p>
@@ -24,14 +25,13 @@ const Ad = (props) => {
                     {data.ad.description}
                 </p>
                 <NavButton
-                    className="w-25"
                     route={data.ad.link.route}
                     variant="primary"
                 >
                     {data.ad.link.label}
                 </NavButton>
             </div>
-        </div>
+        </Box>
     )
 }
 

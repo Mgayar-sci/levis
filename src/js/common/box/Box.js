@@ -1,9 +1,12 @@
 import React from 'react';
 import './box.scss';
 
-const Box = ({ height, style, children, ...otherProps }) => {
+const Box = ({ height, style, children, backgroundImg, overlayCol, ...otherProps }) => {
     const styles = {
         height: height,
+        backgroundImage: `url(${backgroundImg})`,
+        backgroundColor: overlayCol,
+        backgroundBlendMode: "overlay",
         ...style
     }
     return (

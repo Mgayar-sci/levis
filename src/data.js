@@ -25,6 +25,7 @@ export default {
             menus: [
                 {
                     title: 'men',
+                    route:'/men',
                     items: [
                         {
                             title: 'clothing',
@@ -97,6 +98,7 @@ export default {
                 },
                 {
                     title: 'women',
+                    route: '/women',
                     items: [
                         {
                             title: 'clothing',
@@ -148,6 +150,7 @@ export default {
                 },
                 {
                     title: 'kids',
+                    route: '/kids',
                     items: [
                         {
                             title: 's',
@@ -161,6 +164,7 @@ export default {
                     ]
                 }, {
                     title: 'accessories',
+                    route:'/accessories',
                     items: [
                         {
                             title: 'clothing',
@@ -232,6 +236,7 @@ export default {
                     ]
                 }, {
                     title: '360',
+                    route: '360',
                     items: [
                         {
                             title: 'clothing',
@@ -303,6 +308,7 @@ export default {
                     ]
                 }, {
                     title: 'new arrivals',
+                    route: 'route',
                     color: 'blue',
                     items: [
                         {
@@ -375,6 +381,7 @@ export default {
                     ]
                 }, {
                     title: 'spacial offers',
+                    route:'/specua',
                     color: 'red',
                     items: [
                         {
@@ -447,6 +454,7 @@ export default {
                     ]
                 }, {
                     title: 'ra sports',
+                    route:'/specua',
                     items: [
                         {
                             title: 'clothing',

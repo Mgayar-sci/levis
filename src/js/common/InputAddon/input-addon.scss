@@ -1,18 +1,20 @@
-.form-inline{
-    .input-group {
-        min-width: 2.5rem;
-   
-    .btn-addon{
-        background: transparent;
-        border: 1px solid;
-        border-left: none;
+.form-inline {
+  width: 100%;
+  .input-group {
+    min-width: 2.5rem;
+    width: 100% !important;
+
+    .btn-addon {
+      background: transparent;
+      border: 1px solid;
+      border-left: none;
     }
 
     input.form-control {
-        border: 1px solid;
-        border-radius: 0;
-        border-right: none;
-        padding: 1.5rem;
+      border: 1px solid;
+      border-radius: 0;
+      border-right: none;
+      padding: 1.5rem;
     }
- }
+  }
 }

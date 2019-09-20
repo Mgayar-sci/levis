@@ -1,38 +1,44 @@
-.final-touch{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 8rem 0;
-    text-align: center;
-    color: var(--primary);
+.final-touch {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  padding: 8rem 0;
+  text-align: center;
+  color: var(--primary);
 
-    .title-container{
-        text-align: center;
-        .title{
-            text-transform: uppercase;
-            font-size: 5.5rem;
-            font-weight: bold;
-            letter-spacing: 8px;
-            width: 75%;
-            text-align: center;
-            display: inline-block;
-        }
+  .title-container {
+    text-align: center;
+    .title {
+      text-transform: uppercase;
+      font-size: 5.5rem;
+      font-weight: bold;
+      letter-spacing: 8px;
+      width: 75%;
+      text-align: center;
+      display: inline-block;
     }
-    
-    .sub{
-        text-transform: uppercase;
-        font-size: 1rem;
-        font-weight: bold;
-        margin:0;
-        text-align: center;
+  }
+
+  .sub {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  }
+  .links {
+    display: inline-block;
+  }
+  .img-container {
+    img {
+      width: 50%;
     }
-    .links{
-        display: inline-block;
-        
-    }
-    .img-container{
-        img{
-            width: 50%;
-        }
-    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .final-touch {
+    background-size: cover;
+  }
 }

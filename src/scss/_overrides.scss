@@ -4,22 +4,34 @@
 // white:#ffffff
 
 :root {
-    --primary:#000000;
-    --primary-light:#333333;
-    --secondary:#ffffff;
-    --secondary-light:#bebebe;
-    --primary-font:'Cairo, sans-serif';
-    --secondary-font:'Gloria Hallelujah', cursive;
-  }
+  --primary: #000000;
+  --primary-light: #333333;
+  --secondary: #ffffff;
+  --secondary-light: #bebebe;
+  --primary-font: "Cairo, sans-serif";
+  --secondary-font: "Gloria Hallelujah", cursive;
+}
 
-  html{
-    font-size: 62.5%;
-  }
+html {
+  font-size: 62.5%;
+}
 
-  .btn{
-    font-size: 1.85rem;
-  }
+.btn {
+  font-size: 1.85rem;
+}
 
-  .container-fluid{
-    max-width:1800px
+.container-fluid {
+  max-width: 1800px;
+}
+
+.row {
+  div[class^="col"]:not(:last-child) {
+    margin-bottom: 1rem;
   }
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+}

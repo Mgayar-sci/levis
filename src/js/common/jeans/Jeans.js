@@ -6,11 +6,11 @@ import './jeans.scss';
 import Box from '../box/Box';
 
 const Jeans = (props) => {
-    const style = {
-        backgroundImage: `url(${data.jeans.background})`,
-    };
     return (
-        <Box height="75vh" style={style}>
+        <Box height="75vh"
+            backgroundImg={data.jeans.background}
+            overlayCol="#ffffff94"
+        >
             <div className="jeans">
                 <p className="header">
                     {data.jeans.header}
