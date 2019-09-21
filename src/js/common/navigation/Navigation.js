@@ -7,12 +7,13 @@ import InputAddon from '../InputAddon/InputAddon';
 import { ic_search } from 'react-icons-kit/md/ic_search';
 import NavMenu from '../navMenu/NavMenu';
 import Menu from '../menu/Menu';
+import TopBar from '../topBar/TopBar';
 
 const Navigation = ({ brand, menus }) => {
   const verticalMenuItems = menus.map(({ title, route, color }) => ({ title, route, color }));
   return (
     <div className="navigation">
-      <Navbar bg="white" expand="xl" fixed="top" >
+      <Navbar bg="white" expand="xl">
         <Navbar.Brand href="#home">
           <img src={brand} alt="logo" className="logo" />
         </Navbar.Brand>

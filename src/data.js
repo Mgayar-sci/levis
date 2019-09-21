@@ -17,7 +17,8 @@ import j3 from '../src/img/j3.png';
 import j4 from '../src/img/j4.png';
 import j5 from '../src/img/j5.png';
 import j6 from '../src/img/j6.png';
-
+import ar from '../src/img/ar.png';
+import en from '../src/img/en.png';
 
 export default {
     theme: {
@@ -27,6 +28,24 @@ export default {
         'secondary-light': '#bebebe',
     },
     header: {
+        tobBar: {
+            singIn:'/signin',
+            ar,
+            en,
+            links: [{
+                label: 'feedback',
+                route: '/feedback'
+            }, {
+                label: 'Track order',
+                route: 'order'
+            }, {
+                label: 'find a store',
+                route: '/store'
+            }, {
+                label: 'help',
+                route: '/help'
+            }]
+        },
         navigation: {
             logo: logo,
             menus: [
@@ -777,7 +796,7 @@ export default {
         search: [
             {
                 title: 'colour',
-                color:true,
+                color: true,
                 inputGroup: [{
                     name: 'black',
                     num: 5
@@ -797,19 +816,19 @@ export default {
             }, {
                 title: 'lot number',
                 inputGroup: [{
-                    name: 'bootcut',
+                    name: '501',
                     num: 5
                 }, {
-                    name: 'slim',
+                    name: '502',
                     num: 7
                 }, {
-                    name: 'skinny',
+                    name: '503',
                     num: 35
                 }, {
-                    name: 'straight',
+                    name: '504',
                     num: 30
                 }, {
-                    name: 'tapper',
+                    name: '505',
                     num: 30
                 }]
             }, {
