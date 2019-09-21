@@ -7,12 +7,12 @@ const Banner = ({ title, sub, background }) => {
     };
     return (
         <div style={style} className="banner" >
-            <p className="banner-title" >
+            <h2 className="banner-title" >
                 {title}
-            </p>
-            <p className="banner-subtitle" >
+            </h2>
+            <sub className="banner-subtitle" >
                 {sub}
-            </p>
+            </sub>
         </div>
     )
 }

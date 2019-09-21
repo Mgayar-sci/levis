@@ -38,7 +38,7 @@ const sizes = [
 const Trending = (props) => {
     return (
         <div className="tending" >
-            <p className="header" >
+            <p className="tending-header" >
                 {data.home.trending.header}
             </p>
             <Container fluid >

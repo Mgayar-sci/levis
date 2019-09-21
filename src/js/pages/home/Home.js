@@ -13,7 +13,7 @@ import './home.scss';
 
 function Home() {
     return (
-        <div className="home">
+        <main className="home">
             <LinksCarousel items={data.home.carouselLinks} />
             <div className="my-5 container-fluid" >
                 <Banner
@@ -40,7 +40,7 @@ function Home() {
             <div className="my-5 container-fluid">
                 <Trending />
             </div>
-        </div>
+        </main>
     );
 }
 
