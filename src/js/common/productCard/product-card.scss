@@ -1,4 +1,9 @@
 .product-card {
+  a {
+    color: var(--primary);
+    text-decoration: none !important;
+  }
+
   .view {
     position: relative;
     .img {

@@ -1,11 +1,10 @@
-.color-label{
-    display: flex;
-    .color{
-        width: 3rem;
-        height: 1.4rem;
-        margin-right: .5rem; 
-    }
-    .num{
-
-    }
+.color-label {
+  display: flex;
+  position: relative;
+  top: 5px;
+  .color {
+    width: 3rem;
+    height: 1.4rem;
+    margin-right: 0.5rem;
+  }
 }

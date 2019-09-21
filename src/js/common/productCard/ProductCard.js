@@ -5,22 +5,24 @@ import { NavLink } from 'react-router-dom';
 export default function ProductCard({ img, link: { route, label }, dec, price, offer, currency }) {
     return (
         <div className="product-card" >
-            <div className="view">
-                <div className="img">
-                    <img src={img} alt="product" />
+            <NavLink to={route} >
+                <div className="view">
+                    <div className="img">
+                        <img src={img} alt="product" />
+                    </div>
+                    <div className="link">
+                        <NavLink to={route} >
+                            {label}
+                        </NavLink>
+                    </div>
                 </div>
-                <div className="link">
-                    <NavLink to={route} >
-                        {label}
-                    </NavLink>
-                </div>
-            </div>
-            <p className="info" >
-                {dec}
-            </p>
-            <p className={`info ${offer && "offer"}`} >
-                {price} {`  ${currency}`}
-            </p>
+                <p className="info" >
+                    {dec}
+                </p>
+                <p className={`info ${offer && "offer"}`} >
+                    {price} {`  ${currency}`}
+                </p>
+            </NavLink>
         </div>
     )
 }
