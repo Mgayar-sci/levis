@@ -10,9 +10,9 @@ const Ad = (props) => {
 
     return (
         <Box
-            height="75vh"
             backgroundImg={data.home.ad.background}
             overlayCol="#00000094"
+            className="ad"
         >
             <div className="ad-container">
                 <p className="title">

@@ -2,14 +2,15 @@ import React from 'react';
 import data from '../../../data';
 import NavButton from '../navButton/NavButton';
 
-import './jeans.scss';
+import './section.scss';
 import Box from '../box/Box';
 
-const Jeans = (props) => {
+const Section = (props) => {
     return (
-        <Box height="75vh"
+        <Box
             backgroundImg={data.home.jeans.background}
             overlayCol="#ffffff94"
+            className="section"
         >
             <div className="jeans">
                 <p className="header">
@@ -25,4 +26,4 @@ const Jeans = (props) => {
     )
 }
 
-export default Jeans
+export default Section

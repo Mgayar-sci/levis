@@ -3,7 +3,7 @@ import Branches from '../../../js/common/branches/Branches';
 import Categories from '../../common/categories/Categories';
 import Ad from '../../common/ad/Ad';
 import FinalTouch from '../../common/finalTouch/FinalTouch';
-import Jeans from '../../common/jeans/Jeans';
+import Jeans from '../../common/section/Section';
 import Trending from '../../common/trending/Trending';
 import Banner from '../../common/banner/Banner';
 import LinksCarousel from '../../common/linksCarousel/LinksCarousel';
