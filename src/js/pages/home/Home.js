@@ -1,19 +1,27 @@
 import React from 'react';
-import Header from '../../../js/common/header/Header';
 import Branches from '../../../js/common/branches/Branches';
 import Categories from '../../common/categories/Categories';
 import Ad from '../../common/ad/Ad';
 import FinalTouch from '../../common/finalTouch/FinalTouch';
 import Jeans from '../../common/jeans/Jeans';
 import Trending from '../../common/trending/Trending';
+import Banner from '../../common/banner/Banner';
+import LinksCarousel from '../../common/linksCarousel/LinksCarousel';
+import data from '../../../data';
 
 import './home.scss';
-import Footer from '../../common/footer/Footer';
 
 function Home() {
     return (
         <div className="home">
-            <Header />
+            <LinksCarousel items={data.home.carouselLinks} />
+            <div className="my-5 container-fluid" >
+                <Banner
+                    title={data.home.banner.title}
+                    sub={data.home.banner.sub}
+                    background={data.home.banner.background}
+                />
+            </div>
             <div className="my-5 container-fluid">
                 <Branches />
             </div>
@@ -32,7 +40,6 @@ function Home() {
             <div className="my-5 container-fluid">
                 <Trending />
             </div>
-            <Footer />
         </div>
     );
 }

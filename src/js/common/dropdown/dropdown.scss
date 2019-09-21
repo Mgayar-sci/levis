@@ -1,0 +1,16 @@
+.dropdown {
+  color: var(--primary);
+  .dropdown-toggle.btn.btn-transparent {
+    border: 1px solid silver;
+    padding: 0.7rem 2rem;
+  }
+  .dropdown-title {
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-right: 2rem;
+  }
+  .dropdown-item {
+    padding: 1rem 1.5rem;
+    text-transform: capitalize;
+}
+}

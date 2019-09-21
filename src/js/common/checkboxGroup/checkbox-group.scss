@@ -1,0 +1,31 @@
+.checkbox-group {
+  margin: 0.7rem;
+  .checkbox {
+    width: 0px;
+    &::after {
+      content: "\2713\0020";
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid #949494;
+      border-radius: 0.2rem;
+      margin: -5px;
+      color: transparent;
+      font-size: 2.2rem;
+      font-weight: bolder;
+    }
+    &:checked::after {
+      content: "\2713\0020";
+      color: green;
+    }
+  }
+  .label {
+    display: inline-block;
+    margin: 0 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

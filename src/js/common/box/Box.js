@@ -1,7 +1,7 @@
 import React from 'react';
 import './box.scss';
 
-const Box = ({ height, style, children, backgroundImg, overlayCol, ...otherProps }) => {
+const Box = ({ height, style, children, backgroundImg, overlayCol, className, ...otherProps }) => {
     const styles = {
         height: height,
         backgroundImage: `url(${backgroundImg})`,
@@ -10,7 +10,7 @@ const Box = ({ height, style, children, backgroundImg, overlayCol, ...otherProps
         ...style
     }
     return (
-        <div className="box" style={styles} {...otherProps}  >
+        <div className={`box ${className}`} style={styles} {...otherProps}  >
             {children}
         </div>
     )

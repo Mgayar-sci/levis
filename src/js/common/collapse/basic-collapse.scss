@@ -1,0 +1,29 @@
+.basic-collapse {
+  .basic-collapse-toggle {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    cursor: pointer;
+
+    .basic-collapse-header {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+    .basic-collapse-icon{
+      padding: 0 3rem;
+    }
+
+  }
+  .basic-collapse-body {
+
+    display: inline-block;
+    max-height: 0;
+    transition: max-height .5s ease-out;
+    overflow: hidden;
+  }
+  &.show > .basic-collapse-body {
+    max-height: 500px;
+    transition: max-height .5s ease-out;
+  }
+}

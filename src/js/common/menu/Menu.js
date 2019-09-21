@@ -7,22 +7,30 @@ const Menu = ({ items, title, color }) => {
         color: color || 'inherit'
     }
     return (
-        <Dropdown>
-            <Dropdown.Toggle style={style} variant="light" id="dropdown-basic">
-                {title}
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-                <div className="menu-container">
-                    {
-                        items.map(({ title, links },i) => {
-                            return (
-                                <MenuRow title={title} links={links} key={i} />
-                            )
-                        })
-                    }
-                </div>
-            </Dropdown.Menu>
-        </Dropdown>
+        <div className="menu">
+            <Dropdown>
+                <Dropdown.Toggle
+                    style={style}
+                    variant="light"
+                    id="dropdown-basic"
+                >
+                    {title}
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                    <div className="menu-container">
+                        {
+                            items.map(({ title, links }, i) => {
+                                return (
+                                    <Dropdown.Item>
+                                        <MenuRow title={title} links={links} key={i} />
+                                    </Dropdown.Item>
+                                )
+                            })
+                        }
+                    </div>
+                </Dropdown.Menu>
+            </Dropdown>
+        </div>
     )
 }
 

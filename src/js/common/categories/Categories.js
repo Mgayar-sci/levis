@@ -3,14 +3,14 @@ import SimpleGrid from '../simpleGrid/SimpleGrid';
 import data from '../../../data';
 import Categorycard from '../categoryCard/CategoryCard';
 
-const CategoriesList = data.categories.map((i) => <Categorycard {...i} />)
+const CategoriesList = data.home.categories.map((i) => <Categorycard {...i} />)
 
 const Categories = (props) => {
     return (
         <div className="py-5" >
             <SimpleGrid
                 items={CategoriesList}
-                rowProps={{
+                colProps={{
                     sm: 12,
                     md: 4
                 }}

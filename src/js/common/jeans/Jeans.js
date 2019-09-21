@@ -8,17 +8,17 @@ import Box from '../box/Box';
 const Jeans = (props) => {
     return (
         <Box height="75vh"
-            backgroundImg={data.jeans.background}
+            backgroundImg={data.home.jeans.background}
             overlayCol="#ffffff94"
         >
             <div className="jeans">
                 <p className="header">
-                    {data.jeans.header}
+                    {data.home.jeans.header}
                 </p>
                 <p className="main">
-                    {data.jeans.main}
+                    {data.home.jeans.main}
                 </p>
-                {data.jeans.links.map(({ label, route }, i) => <NavButton route={route} variant="seconadry" className="link" >{label}</NavButton>)
+                {data.home.jeans.links.map(({ label, route }, i) => <NavButton route={route} variant="seconadry" className="link" >{label}</NavButton>)
                 }
             </div>
         </Box>

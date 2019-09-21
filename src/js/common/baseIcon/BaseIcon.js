@@ -13,7 +13,7 @@ const sizes = {
 
 const BaseIcon = ({ color, size, icon, ...otherProps }) => {
     const siz = typeof size === "string" ? sizes[size] : size;
-    const colr = colors[color]
+    const colr = colors[color]||color
     const style = {
         color:colr,
     }

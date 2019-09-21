@@ -12,7 +12,7 @@ const TrendingCarousel = ({ items, itemsPerView, col }) => {
             component={({ item }) => (
                 <TrendingCarouselList
                     group={item}
-                    rowProps={{ xs: col }}
+                    colProps={{ xs: col }}
                 />)}
         />
     )

@@ -6,7 +6,7 @@ import './final-touch.scss';
 
 const FinalTouch = (props) => {
     const style = {
-        backgroundImage: `url(${data.final.background})`,
+        backgroundImage: `url(${data.home.final.background})`,
         backgroundColor: "#ffffff94",
         backgroundBlendMode: "overlay"
     };
@@ -18,15 +18,15 @@ const FinalTouch = (props) => {
                     <Col sm={12} md={6} >
                         <div className="title-container" >
                             <p className="title">
-                                {data.final.title}
+                                {data.home.final.title}
                             </p>
                         </div>
                         <p className="sub">
-                            {data.final.sub}
+                            {data.home.final.sub}
                         </p>
                         <div>
                             {
-                                data.final.links.map((link, i) => (
+                                data.home.final.links.map((link, i) => (
                                     <div key={i}>
                                         <NavButton
                                             className="link"
@@ -43,7 +43,7 @@ const FinalTouch = (props) => {
                     </Col>
                     <Col sm={12} md={6} >
                         <div className="img-container" >
-                            <img src={data.final.img} alt="banner" />
+                            <img src={data.home.final.img} alt="banner" />
                         </div>
                     </Col>
                 </Row>

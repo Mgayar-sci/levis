@@ -11,24 +11,24 @@ const Ad = (props) => {
     return (
         <Box
             height="75vh"
-            backgroundImg={data.ad.background}
+            backgroundImg={data.home.ad.background}
             overlayCol="#00000094"
         >
             <div className="ad-container">
                 <p className="title">
-                    {data.ad.header}
+                    {data.home.ad.header}
                 </p>
                 <p className="main">
-                    {data.ad.main}
+                    {data.home.ad.main}
                 </p>
                 <p className="description">
-                    {data.ad.description}
+                    {data.home.ad.description}
                 </p>
                 <NavButton
-                    route={data.ad.link.route}
+                    route={data.home.ad.link.route}
                     variant="primary"
                 >
-                    {data.ad.link.label}
+                    {data.home.ad.link.label}
                 </NavButton>
             </div>
         </Box>

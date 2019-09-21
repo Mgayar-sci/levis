@@ -39,7 +39,7 @@ const Trending = (props) => {
     return (
         <div className="tending" >
             <p className="header" >
-                {data.trending.header}
+                {data.home.trending.header}
             </p>
             <Container fluid >
                 {
@@ -48,7 +48,7 @@ const Trending = (props) => {
                             {match => match && (
                                 <TrendingCarousel
                                     col={col}
-                                    items={data.trending.products}
+                                    items={data.home.trending.products}
                                     itemsPerView={itemsPerView}
                                 />)}
                         </Media>
