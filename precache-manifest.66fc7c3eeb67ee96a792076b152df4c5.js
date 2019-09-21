@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d345fe6ab5df369ea3729db88ed38ab",
+    "revision": "73554272aec278ec7bbcd0e68315cc78",
     "url": "/levis/index.html"
   },
   {
-    "revision": "8da8e8a7ff83d5efb156",
-    "url": "/levis/static/css/main.729603a7.chunk.css"
+    "revision": "036ad1cae9f7320ecbaa",
+    "url": "/levis/static/css/main.7941ec78.chunk.css"
   },
   {
-    "revision": "045e3bc0ca8bd91574b6",
-    "url": "/levis/static/js/2.fa874ff6.chunk.js"
+    "revision": "a259beb40dd95e940b76",
+    "url": "/levis/static/js/2.0f839c7c.chunk.js"
   },
   {
-    "revision": "8da8e8a7ff83d5efb156",
-    "url": "/levis/static/js/main.0394fc2e.chunk.js"
+    "revision": "036ad1cae9f7320ecbaa",
+    "url": "/levis/static/js/main.c6bb0a7d.chunk.js"
   },
   {
     "revision": "37f8d44f4b2aaa46da7d",
@@ -38,6 +38,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7996a1b4bb56a7231204099a3c3afec0",
     "url": "/levis/static/media/final2.7996a1b4.png"
+  },
+  {
+    "revision": "14b982a41726ff646f353cc4a1730498",
+    "url": "/levis/static/media/j1.14b982a4.png"
+  },
+  {
+    "revision": "a42f8c869528f6e503e17e2a1108bc30",
+    "url": "/levis/static/media/j2.a42f8c86.png"
+  },
+  {
+    "revision": "68e25fe29a5d3c42d94275edb1eb1c1c",
+    "url": "/levis/static/media/j3.68e25fe2.png"
+  },
+  {
+    "revision": "60f6a861463e6bdf188c96e7dd9c800a",
+    "url": "/levis/static/media/j4.60f6a861.png"
+  },
+  {
+    "revision": "fccd418e0800e8dac7d14323ea2b1fcc",
+    "url": "/levis/static/media/j5.fccd418e.png"
+  },
+  {
+    "revision": "88f01c53891a59fa9bf3b2b6ef7cca27",
+    "url": "/levis/static/media/j6.88f01c53.png"
   },
   {
     "revision": "32b351c15a228f8e49837060e6c40640",
