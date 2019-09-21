@@ -9,7 +9,6 @@ import ProductCard from '../productCard/ProductCard';
 import SimpleGrid from '../simpleGrid/SimpleGrid';
 import DropdownMenu from '../dropdown/Dropdown';
 
-
 class ProductsSearch extends React.Component {
     constructor(props) {
         super(props);
@@ -72,7 +71,7 @@ class ProductsSearch extends React.Component {
             <div className="products-search">
                 <Container fluid >
                     <Row>
-                        <Col xs={12} sm={12} md={4} >
+                        <Col xs={12} sm={12} md={4} lg={3} >
                             <h2 className="search-title" >
                                 {data.products.searchTitle}
                             </h2>
@@ -98,7 +97,7 @@ class ProductsSearch extends React.Component {
                                 formState={filterItems}
                             />
                         </Col>
-                        <Col xs={12} sm={12} md={8} >
+                        <Col xs={12} sm={12} md={8} lg={9} >
                             <div className="results" >
                                 <div className="results-header">
                                     <h2 className="results-number" >

@@ -32,42 +32,42 @@ export default {
             menus: [
                 {
                     title: 'men',
-                    route: '/men',
+                    route: '/products',
                     items: [
                         {
                             title: 'clothing',
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -75,14 +75,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -90,14 +90,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }
@@ -112,14 +112,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -127,14 +127,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -142,14 +142,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }
@@ -164,7 +164,7 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }
@@ -178,35 +178,35 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -214,14 +214,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -229,14 +229,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }
@@ -250,35 +250,35 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -286,14 +286,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -301,14 +301,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }
@@ -323,35 +323,35 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -359,14 +359,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -374,14 +374,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }
@@ -396,35 +396,35 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -432,14 +432,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -447,14 +447,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }
@@ -468,35 +468,35 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -504,14 +504,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }, {
@@ -519,14 +519,14 @@ export default {
                             links: [
                                 {
                                     label: 'new arrival',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }, {
                                     label: 'jens',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 },
                                 {
                                     label: 'Tees&polo',
-                                    route: 'new-arrivals'
+                                    route: 'products'
                                 }
                             ]
                         }
@@ -776,59 +776,59 @@ export default {
         searchTitle: 'refine',
         search: [
             {
-                title: 'fit',
+                title: 'colour',
                 color:true,
                 inputGroup: [{
-                    name: 'bootcut',
-                    no: 5
+                    name: 'black',
+                    num: 5
                 }, {
-                    name: 'slim',
-                    no: 7
+                    name: 'blue',
+                    num: 7
                 }, {
-                    name: 'skinny',
-                    no: 35
+                    name: 'lightblue',
+                    num: 35
                 }, {
-                    name: 'straight',
-                    no: 30
+                    name: 'grey',
+                    num: 30
                 }, {
-                    name: 'tapper',
-                    no: 30
+                    name: 'silver',
+                    num: 30
                 }]
             }, {
                 title: 'lot number',
                 inputGroup: [{
                     name: 'bootcut',
-                    no: 5
+                    num: 5
                 }, {
                     name: 'slim',
-                    no: 7
+                    num: 7
                 }, {
                     name: 'skinny',
-                    no: 35
+                    num: 35
                 }, {
                     name: 'straight',
-                    no: 30
+                    num: 30
                 }, {
                     name: 'tapper',
-                    no: 30
+                    num: 30
                 }]
             }, {
                 title: 'fit',
                 inputGroup: [{
                     name: 'bootcut',
-                    no: 5
+                    num: 5
                 }, {
                     name: 'slim',
-                    no: 7
+                    num: 7
                 }, {
                     name: 'skinny',
-                    no: 35
+                    num: 35
                 }, {
                     name: 'straight',
-                    no: 30
+                    num: 30
                 }, {
                     name: 'tapper',
-                    no: 30
+                    num: 30
                 }]
             }
         ],
