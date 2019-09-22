@@ -21,8 +21,10 @@
       color: var(--secondary);
       font-size: 1.5rem;
       font-weight: bold;
+      text-transform: uppercase;
       a {
         color: var(--secondary);
+        text-transform: uppercase;
       }
     }
   }
@@ -41,6 +43,7 @@
         color: var(--secondary);
         font-size: 1.5rem;
         font-weight: bold;
+        text-transform: uppercase;
         i {
           margin: 0 0.5rem;
         }
