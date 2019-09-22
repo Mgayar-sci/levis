@@ -9,7 +9,7 @@ import Subscripe from '../subscripe/Subscripe';
 
 const Footer = (props) => {
     return (
-        <div className="footer" >
+        <footer className="footer" >
             <Container fluid >
                 <Row>
                     <Col md={8}>
@@ -40,7 +40,7 @@ const Footer = (props) => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </footer>
     )
 }
 

@@ -15,12 +15,12 @@ const Ad = (props) => {
             className="ad"
         >
             <div className="ad-container">
-                <p className="title">
+                <h2 className="title">
                     {data.home.ad.header}
-                </p>
-                <p className="main">
+                </h2>
+                <sub className="main">
                     {data.home.ad.main}
-                </p>
+                </sub>
                 <p className="description">
                     {data.home.ad.description}
                 </p>

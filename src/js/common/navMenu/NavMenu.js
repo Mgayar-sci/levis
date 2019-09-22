@@ -31,7 +31,7 @@ class NavMenu extends React.Component {
                 </button>}
                 <div className={`menu-vertical ${show && "show"}`} >
                     <div className="overlay" onClick={this.toggleMenu} />
-                    <div className='menu-container'>
+                    <nav className='menu-container'>
                         <ul className="menus-list" >
                             <li className="button-item" >
                                 <button
@@ -48,12 +48,13 @@ class NavMenu extends React.Component {
                                         className="link-item"
                                         style={{ color: color || "var(--primary)" }}
                                         to={route}
+                                        onClick={this.toggleMenu}
                                     >
                                         {title}
                                     </NavLink>)
                             }
                         </ul>
-                    </div>
+                    </nav>
                 </div>
             </div>
         )
