@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/levis/static/css/main.7ab361fb.chunk.css",
+    "main.css": "/levis/static/css/main.619d45da.chunk.css",
     "main.js": "/levis/static/js/main.877c10e3.chunk.js",
     "main.js.map": "/levis/static/js/main.877c10e3.chunk.js.map",
     "runtime~main.js": "/levis/static/js/runtime~main.7c4e9462.js",
@@ -8,9 +8,9 @@
     "static/js/2.bef0bab6.chunk.js": "/levis/static/js/2.bef0bab6.chunk.js",
     "static/js/2.bef0bab6.chunk.js.map": "/levis/static/js/2.bef0bab6.chunk.js.map",
     "index.html": "/levis/index.html",
-    "precache-manifest.ce1b5657f2d1556e088e4a04dcff2035.js": "/levis/precache-manifest.ce1b5657f2d1556e088e4a04dcff2035.js",
+    "precache-manifest.fb6fa314ba0768e2aa5447132837a155.js": "/levis/precache-manifest.fb6fa314ba0768e2aa5447132837a155.js",
     "service-worker.js": "/levis/service-worker.js",
-    "static/css/main.7ab361fb.chunk.css.map": "/levis/static/css/main.7ab361fb.chunk.css.map",
+    "static/css/main.619d45da.chunk.css.map": "/levis/static/css/main.619d45da.chunk.css.map",
     "static/media/ad.jpg": "/levis/static/media/ad.bfd3ccbe.jpg",
     "static/media/banner.png": "/levis/static/media/banner.71b351d2.png",
     "static/media/branches.png": "/levis/static/media/branches.3084ce8a.png",
