@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 
 import './side-menu-item.scss';
 
-export default function SideMenuItem({ links, header }) {
+export default function SideMenuItem({ links, header, defaultOpen }) {
     return (
         <div className="side-menu-item" >
-            <BasicCollapse defaultOpen header={header} >
+            <BasicCollapse defaultOpen={defaultOpen} header={header} >
                 <ul>
                     {links.map(({ label, route }) => (
                         <li className="item" >

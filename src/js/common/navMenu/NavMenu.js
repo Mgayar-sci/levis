@@ -115,7 +115,7 @@ class NavMenu extends React.Component {
                                         color="secondary"
                                         className=""
                                         icon={ic_keyboard_arrow_left}
-                                        size="sm"
+                                        size="md"
                                         onClick={hideSideMenu}
                                     />
                                     <span>
@@ -125,7 +125,7 @@ class NavMenu extends React.Component {
                                         color="secondary"
                                         className=""
                                         icon={ic_close}
-                                        size="sm"
+                                        size={28}
                                         onClick={handleCloseMenu}
                                     />
                                 </li>
@@ -133,6 +133,7 @@ class NavMenu extends React.Component {
                                     sideLinks.map(({ links, title }, i) => {
                                         return <SideMenuItem
                                             key={i}
+                                            defaultOpen={i < 1}
                                             links={links}
                                             header={title}
                                         />

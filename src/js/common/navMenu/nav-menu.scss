@@ -33,8 +33,10 @@ $menu-width: 300px;
       z-index: 100;
       height: 100%;
       width: $menu-width;
+      backface-visibility: hidden;
 
       .main-menu {
+        backface-visibility: hidden;
         transform: translateX(-$menu-width);
         transition: transform ease-out 0.4s;
         overflow: scroll;
@@ -47,6 +49,7 @@ $menu-width: 300px;
         background: var(--secondary);
       }
       .side-menu {
+        backface-visibility: hidden;
         transform: translateX(2 * $menu-width);
         transition: transform ease-out 0.2s;
         overflow: scroll;
@@ -67,7 +70,6 @@ $menu-width: 300px;
       background: white;
       display: block;
       height: 100%;
-
       .button-item {
         position: absolute;
         z-index: 1000;
@@ -105,7 +107,7 @@ $menu-width: 300px;
       .side-menu-header {
         background: var(--primary-light);
         color: var(--secondary);
-        padding: 0.8rem;
+        padding: .8rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
