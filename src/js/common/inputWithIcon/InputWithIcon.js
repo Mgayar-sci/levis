@@ -42,7 +42,8 @@ export default class InputWithIcon extends Component {
                         icon={ic_close}
                         placeholder="search"
                         iconProps={{
-                            onClick: () => this.handleOpen(false)
+                            onClick: () => this.handleOpen(false),
+                            size:"sm"
                         }}
                         btnClass="btn-white"
                         inputClass="input-search"

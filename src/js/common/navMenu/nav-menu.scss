@@ -65,8 +65,7 @@ $menu-width: 300px;
     .menus-list {
       padding: 0;
       background: white;
-      display: flex;
-      flex-direction: column;
+      display: block;
       height: 100%;
 
       .button-item {

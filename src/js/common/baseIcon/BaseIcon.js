@@ -6,7 +6,7 @@ import data from '../../../data';
 const colors = data.theme
 
 const sizes = {
-    sm: 27,
+    sm: 20,
     md: 32,
     lg: 50
 }
