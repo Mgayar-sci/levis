@@ -51,12 +51,12 @@ $menu-width: 300px;
       .side-menu {
         backface-visibility: hidden;
         transform: translateX(2 * $menu-width);
-        transition: transform ease-out 0.2s;
+        transition: transform ease 0.4s;
         overflow: scroll;
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 100;
+        z-index: 105;
         height: 100%;
         width: $menu-width;
         background: var(--secondary);
@@ -107,7 +107,7 @@ $menu-width: 300px;
       .side-menu-header {
         background: var(--primary-light);
         color: var(--secondary);
-        padding: .8rem;
+        padding: 0.8rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -115,6 +115,33 @@ $menu-width: 300px;
           text-transform: uppercase;
           color: var(--secondary);
           font-size: 1.8rem;
+        }
+      }
+
+      .extra-links {
+        list-style: none;
+        margin: 0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        background: var(--primary-light);
+        color: var(--secondary);
+        li {
+          padding: 1rem 0;
+          a {
+            color: var(--secondary);
+            text-transform: capitalize;
+            font-size: 1rem;
+          }
+        }
+        .language {
+          display: flex;
+          border-top: 1px solid var(--secondary);
+          padding: 2rem 0rem;
+          margin-top: 1rem;
+          a {
+            margin-right: 1rem;
+          }
         }
       }
     }

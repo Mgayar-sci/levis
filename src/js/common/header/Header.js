@@ -19,6 +19,7 @@ const Header = () => {
                 <MobileNav
                     logo={data.header.navigation.logo}
                     menus={data.header.navigation.menus}
+                    extra={data.header.tobBar.links}
                 />
             </Media>
         </header>

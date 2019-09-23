@@ -2,7 +2,7 @@
   .dropdown {
     color: var(--primary);
     font-size: 1.5rem;
-    margin: 0 ;
+    margin: 0;
 
     .navbar-nav {
       margin-left: 11rem;
@@ -30,7 +30,7 @@
       border-radius: 0;
       border-color: transparent;
       font-size: 1.4rem;
-      padding: .5;
+      padding: 0.5;
       padding-bottom: 2rem;
       padding-top: 1.5rem;
       &::after {
@@ -41,7 +41,8 @@
 
     &.show > button.dropdown-toggle.btn {
       border-bottom: none;
-      border-color: var(--primary);
+      border-color: silver;
+      box-shadow: none;
     }
 
     .dropdown-toggle {
@@ -50,7 +51,7 @@
     }
 
     .dropdown-menu {
-      border: 1px solid var(--primary);
+      border: 1px solid silver;
       border-radius: 0;
       padding: 1.5rem;
       margin-top: 0;
@@ -58,9 +59,8 @@
 
     .menu-container {
       display: flex;
-      & .menu-row:not(:last-child) {
+      & > a:not(:last-child) {
         border-right: 1px solid silver;
-        margin-right: 2rem;
       }
     }
   }

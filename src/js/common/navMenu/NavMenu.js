@@ -7,9 +7,9 @@ import { NavLink } from 'react-router-dom';
 import { ic_account_circle } from 'react-icons-kit/md/ic_account_circle';
 import { ic_keyboard_arrow_left } from 'react-icons-kit/md/ic_keyboard_arrow_left';
 import { ic_keyboard_arrow_right } from 'react-icons-kit/md/ic_keyboard_arrow_right';
-
 import './nav-menu.scss';
 import SideMenuItem from '../sideMenuItem/SideMenuItem';
+import data from '../../../data';
 
 class NavMenu extends React.Component {
     constructor(props) {
@@ -44,7 +44,7 @@ class NavMenu extends React.Component {
     }
 
     render() {
-        const { items, className, signIn = "/signin" } = this.props;
+        const { items, className, signIn = "/signin", extra } = this.props;
         const { handleCloseMenu, handleOpenMenu, showSideMenu, hideSideMenu, state: { open, sideLinks, header, sideOpen } } = this;
 
         return (
@@ -106,6 +106,25 @@ class NavMenu extends React.Component {
                                             />
                                         </div>))
                                 }
+                                <li>
+                                    <ul className="extra-links" >
+                                        {extra.map(({ label, route }) => (
+                                            <li>
+                                                <NavLink to={route} >
+                                                    {label}
+                                                </NavLink>
+                                            </li>
+                                        ))}
+                                        <li className="language" >
+                                            <NavLink to={"/ar"} >
+                                                <img src={data.header.tobBar.ar} alt="ar" />
+                                            </NavLink>
+                                            <NavLink to={"/en"} >
+                                                <img src={data.header.tobBar.en} alt="en" />
+                                            </NavLink>
+                                        </li>
+                                    </ul>
+                                </li>
                             </ul>
                         </nav>
                         <nav className="side-menu" >
