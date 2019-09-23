@@ -73,7 +73,7 @@ class NavMenu extends React.Component {
                                             color="secondary"
                                             className=""
                                             icon={ic_close}
-                                            size="sm"
+                                            size="md"
                                         />
                                     </button>
                                 </li>
@@ -92,7 +92,7 @@ class NavMenu extends React.Component {
                                         <div
                                             key={i}
                                             className="link-item"
-                                            style={{ color: color || "var(--primary)" }}
+                                            style={{ color: color || "var(--primary-light)" }}
                                             to={route}
                                             onClick={() => showSideMenu(title, items)}
                                         >
