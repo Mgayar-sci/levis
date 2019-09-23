@@ -155,6 +155,7 @@ class NavMenu extends React.Component {
                                             defaultOpen={i < 1}
                                             links={links}
                                             header={title}
+                                            onClick={handleCloseMenu}
                                         />
                                     })
                                 }
