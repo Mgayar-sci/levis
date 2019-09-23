@@ -3,9 +3,9 @@ import Tag from '../tag/Tag';
 import './tags-area.scss';
 
 
-export default function TagsArea({ tagsGroup, clearItem }) {
+export default function TagsArea({ tagsGroup, clearItem,className }) {
     return (
-        <div className="tags-area">
+        <div className={`tags-area ${className}`}>
             {
                 tagsGroup.map(({ parent, tags }) =>
                     tags.map((label) => (

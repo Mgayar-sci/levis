@@ -75,7 +75,7 @@ export default class Filter extends React.Component {
                 </div>
             )
         } else {
-            return (<TagsArea tagsGroup={tagsGroup} clearItem={clearItem} />)
+            return (<TagsArea className="mx-2" tagsGroup={tagsGroup} clearItem={clearItem} />)
         }
     }
 }
