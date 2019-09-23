@@ -1,13 +1,13 @@
-.header.fixed-top{
+.header{
   & + * {
     margin-top: 12rem;
   }
 }
 
-@media only screen and (max-width: 1540px) {
-  .header.fixed-top{
+@media only screen and (max-width: 1080px) {
+  .header{
     & + * {
-      margin-top: 27rem;
+      margin-top: 5rem;
     }
   }
 }

@@ -1,0 +1,16 @@
+.input-with-icon {
+  .input-container {
+    position: absolute;
+    top: 3.4rem;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+  }
+  .btn-white{
+      background: var(--secondary) !important;
+      border-radius: 0;
+  }
+  .input-search{
+    border-radius: 0;
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import { Dropdown } from 'react-bootstrap';
 import './menu.scss';
 import MenuRow from './MenuRow';
-const Menu = ({ items, title, color }) => {
+const Menu = ({ items, title, color, right }) => {
     const style = {
         color: color || 'inherit'
     }
@@ -16,7 +16,7 @@ const Menu = ({ items, title, color }) => {
                 >
                     {title}
                 </Dropdown.Toggle>
-                <Dropdown.Menu>
+                <Dropdown.Menu className={right && "right"} >
                     <div className="menu-container">
                         {
                             items.map(({ title, links }, i) => {

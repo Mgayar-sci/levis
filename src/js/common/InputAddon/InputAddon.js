@@ -12,7 +12,7 @@ const InputAddon = ({ icon, placeholder, btnClass, inputClass, iconProps = {} })
                 />
                 <InputGroup.Append>
                     <button className={`btn-addon ${btnClass}`}>
-                        <BaseIcon icon={icon} color="primary" size="sm" {...iconProps} />
+                        <BaseIcon icon={icon} color="silver" size="md" {...iconProps} />
                     </button>
                 </InputGroup.Append>
             </InputGroup>

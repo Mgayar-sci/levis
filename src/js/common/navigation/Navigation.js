@@ -5,14 +5,14 @@ import BaseIcon from '../baseIcon/BaseIcon';
 import './navigation.scss';
 import InputAddon from '../InputAddon/InputAddon';
 import { ic_search } from 'react-icons-kit/md/ic_search';
-import NavMenu from '../navMenu/NavMenu';
 import Menu from '../menu/Menu';
 import { NavLink } from 'react-router-dom';
+import TopBar from '../topBar/TopBar';
 
 const Navigation = ({ brand, menus }) => {
-  const verticalMenuItems = menus.map(({ title, route, color }) => ({ title, route, color }));
   return (
-    <div className="navigation">
+    <div className="navigation fixed-top">
+      <TopBar />
       <Navbar bg="white" expand="xl">
         <NavLink className="navbar-brand" to="/">
           <img src={brand} alt="logo" className="logo" />
@@ -21,10 +21,29 @@ const Navigation = ({ brand, menus }) => {
           <div className="nav-left">
             <ul className="menu-horizontal" >
               {
-                menus.map(({ items, title, color }, i) => <Menu key={i} items={items} title={title} color={color} />)
+                menus.map(({ items, title, color }, i) => {
+                  if (i > 4) {
+                    return (
+                      <Menu
+                        key={i}
+                        items={items}
+                        title={title}
+                        color={color}
+                        right
+                      />)
+                  } else {
+                    return (
+                      <Menu
+                        key={i}
+                        items={items}
+                        title={title}
+                        color={color}
+                      />)
+                  }
+                }
+                )
               }
             </ul>
-            <NavMenu items={verticalMenuItems} className="menu-v" />
           </div>
           <div className="nav-right" >
             <div>

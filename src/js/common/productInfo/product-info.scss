@@ -1,0 +1,13 @@
+.product-info {
+    width: 100%;
+  .product-info-header {
+      display: flex;
+      flex-direction: column;
+    .product-info-title {
+        font-size: 2.5rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: var(--primary);
+    }
+  }
+}

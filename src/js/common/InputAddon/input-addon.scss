@@ -6,15 +6,17 @@
 
     .btn-addon {
       background: transparent;
-      border: 1px solid;
+      border: 1px solid silver;
       border-left: none;
+      border-radius: 0 ;
     }
 
     input.form-control {
       border: 1px solid;
-      border-radius: 0;
+      border-radius: 0 ; 
       border-right: none;
       padding: 1.5rem;
+      border-color: silver;
     }
   }
 }

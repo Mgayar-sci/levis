@@ -29,7 +29,7 @@ export default {
     },
     header: {
         tobBar: {
-            singIn:'/signin',
+            singIn: '/signin',
             ar,
             en,
             links: [{
@@ -973,6 +973,13 @@ export default {
                     price: 2500,
                     currency: 'egp',
                 }]
+        }
+    },
+    product: {
+        gallery: {
+            images: [
+                j1, j2, j3, j4
+            ]
         }
     }
 }

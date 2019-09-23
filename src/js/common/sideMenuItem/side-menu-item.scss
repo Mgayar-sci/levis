@@ -1,0 +1,25 @@
+.side-menu-item {
+  .basic-collapse-toggle {
+    padding: 0.5rem 1.5rem;
+    border-bottom: 1px solid silver;
+    .basic-collapse-header {
+      font-size: 2rem;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid silver;
+    .item {
+      display: block;
+      margin: 0;
+      padding: 0;
+      padding: 1rem 2rem;
+      .link {
+        color: var(--primary-light);
+        text-transform: capitalize;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

@@ -7,7 +7,6 @@ import './products-form.scss';
 
 
 const ProductsForm = ({ formInputs, handleSelect, formState }) => {
-    console.log(formState);
     return (
         <div className="products-form" >
             {

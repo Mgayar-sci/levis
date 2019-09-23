@@ -1,7 +1,7 @@
 .basic-collapse {
   .basic-collapse-toggle {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     cursor: pointer;
 
@@ -9,21 +9,23 @@
       font-size: 1.5rem;
       text-transform: uppercase;
       font-weight: bolder;
+      margin: 0;
     }
-    .basic-collapse-icon{
-      padding: 0 3rem;
+    .basic-collapse-icon {
+      padding: 0;
     }
-
   }
   .basic-collapse-body {
-
-    display: inline-block;
+    display: flex;
     max-height: 0;
-    transition: max-height .5s ease-out;
+    transition: max-height 0.5s ease-out;
     overflow: hidden;
+    & > div {
+      width: 100%;
+    }
   }
   &.show > .basic-collapse-body {
     max-height: 500px;
-    transition: max-height .5s ease-out;
+    transition: max-height 0.5s ease-out;
   }
 }

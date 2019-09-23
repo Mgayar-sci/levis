@@ -1,0 +1,21 @@
+.mobile-nav {
+  background: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  border: 1px solid silver;
+  padding: 0 0.5rem;
+  .logo-container {
+    width: 7rem;
+    margin-top: -5px;
+  }
+  .extra {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .shopping-bag {
+      margin-left: 1rem;
+    }
+  }
+}

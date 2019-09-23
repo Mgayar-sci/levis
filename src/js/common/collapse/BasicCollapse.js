@@ -34,7 +34,9 @@ class BasicCollapse extends Component {
                     </div>
                 </div>
                 <div className="basic-collapse-body">
-                    {children}
+                    <div>
+                        {children}
+                    </div>
                 </div>
             </div>
         )

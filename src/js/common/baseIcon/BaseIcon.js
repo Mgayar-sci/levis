@@ -6,19 +6,20 @@ import data from '../../../data';
 const colors = data.theme
 
 const sizes = {
-    sm:20,
-    md:32,
-    lg:50
+    sm: 27,
+    md: 32,
+    lg: 50
 }
 
-const BaseIcon = ({ color, size, icon, ...otherProps }) => {
+const BaseIcon = ({ color, size, icon, style, ...otherProps }) => {
     const siz = typeof size === "string" ? sizes[size] : size;
-    const colr = colors[color]||color
-    const style = {
-        color:colr,
+    const colr = colors[color] || color
+    const Style = {
+        color: colr,
+        ...style
     }
     return (
-        <Icon style={style} size={siz} icon={icon} {...otherProps} />
+        <Icon style={Style} size={siz} icon={icon} {...otherProps} />
     )
 }
 
