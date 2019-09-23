@@ -2,12 +2,13 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProductsForm from '../productsForm/ProductsForm';
 import data from '../../../data';
-import Tag from '../tag/Tag';
+
 
 import './products-search.scss';
 import ProductCard from '../productCard/ProductCard';
 import SimpleGrid from '../simpleGrid/SimpleGrid';
 import DropdownMenu from '../dropdown/Dropdown';
+import Filter from '../filter/Filter';
 
 class ProductsSearch extends React.Component {
     constructor(props) {
@@ -75,17 +76,10 @@ class ProductsSearch extends React.Component {
                             <h2 className="search-title" >
                                 {data.products.searchTitle}
                             </h2>
-                            <div className="tags-area">
-                                {
-                                    selectedTags.map(({ parent, tags }) => tags.map((label) => (
-                                        <Tag
-                                            key={label}
-                                            label={label}
-                                            onClick={() => this.handleTagClick(parent, label)}
-                                        />)
-                                    ))
-                                }
-                            </div>
+                            <Filter
+                                clearItem={this.handleTagClick}
+                                tags={selectedTags}
+                            />
                             <div className="clear-all">
                                 <button onClick={this.handleClearAll} >
                                     clear all

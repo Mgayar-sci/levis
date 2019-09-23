@@ -5,15 +5,7 @@
     text-transform: uppercase;
     letter-spacing: 0.2rem;
   }
-  .tags-area {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1rem 0;
-    margin-left: -0.5rem;
-    & > * {
-      margin: 0.5rem;
-    }
-  }
+
   .clear-all {
     button {
       padding: 0.5rem;
