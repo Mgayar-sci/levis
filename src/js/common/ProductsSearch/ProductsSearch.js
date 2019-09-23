@@ -76,15 +76,6 @@ class ProductsSearch extends React.Component {
                             <h2 className="search-title" >
                                 {data.products.searchTitle}
                             </h2>
-                            <Filter
-                                clearItem={this.handleTagClick}
-                                tags={selectedTags}
-                            />
-                            <div className="clear-all">
-                                <button onClick={this.handleClearAll} >
-                                    clear all
-                                </button>
-                            </div>
                             <ProductsForm
                                 formInputs={data.products.search}
                                 handleSelect={this.handleSelect}
@@ -97,13 +88,20 @@ class ProductsSearch extends React.Component {
                                     <h2 className="results-number" >
                                         {data.products.results.number} {`  ${data.products.results.unit}`}
                                     </h2>
-                                    <div className="sort-dropdown" >
-                                        <DropdownMenu
-                                            selectedItem={sort}
-                                            title={`sort by  ${sort}`}
-                                            items={['date', 'size']}
-                                            handleSelect={this.handleSort}
+                                    <div className="filters-section" >
+                                        <Filter
+                                            clearItem={this.handleTagClick}
+                                            tagsGroup={selectedTags}
+                                            clearAll={this.handleClearAll}
                                         />
+                                        <div className="sort-dropdown" >
+                                            <DropdownMenu
+                                                selectedItem={sort}
+                                                title={`sort by  ${sort}`}
+                                                items={['date', 'size']}
+                                                handleSelect={this.handleSort}
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                                 <SimpleGrid
@@ -114,7 +112,6 @@ class ProductsSearch extends React.Component {
                                         sm: 6,
                                         md: 6,
                                         lg: 4,
-                                        xl: 3
                                     }}
                                 />
                             </div>

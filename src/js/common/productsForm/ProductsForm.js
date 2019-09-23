@@ -15,24 +15,17 @@ const ProductsForm = ({ formInputs, handleSelect, formState }) => {
                         <BasicCollapse defaultOpen header={title} >
                             {
                                 inputGroup.map(({ name, num }) => {
-                                    if (color) {
-                                        return (
-                                            <CheckboxGroup
-                                                label={<ColorLabel label={name} num={num} />}
-                                                name={name}
-                                                onClick={handleSelect(title)}
-                                                checked={formState && formState[title].includes(name)}
-                                            />
-                                        )
-                                    } else {
-                                        return (
-                                            <CheckboxGroup
-                                                label={`${name} [ ${num} ]`}
-                                                name={name}
-                                                onClick={handleSelect(title)}
-                                                checked={formState && formState[title].includes(name)}
-                                            />)
-                                    }
+                                    return (
+                                        <CheckboxGroup
+                                            label={
+                                                color ? <ColorLabel label={name} num={num} />
+                                                    : `${name} [ ${num} ]`
+                                            }
+                                            name={name}
+                                            onClick={handleSelect(title)}
+                                            checked={formState && formState[title].includes(name)}
+                                        />
+                                    )
                                 })
                             }
                         </BasicCollapse>
