@@ -46,7 +46,7 @@
         flex-direction: column-reverse;
         align-items: normal;
         .filters-section {
-          margin-bottom: 2rem;
+          margin-bottom: .5rem;
           .filter-modal {
             width: 100%;
             margin: 2rem 0;
@@ -54,8 +54,7 @@
         }
       }
       .results-number {
-        margin-bottom: 2.5rem;
-        padding: 0 1.5rem;
+        padding: 0 2rem;
       }
     }
   }
@@ -71,31 +70,10 @@
         flex-direction: column-reverse;
         align-items: flex-start;
         .sort-dropdown {
-          margin: 1rem 1.5rem 2.5rem;
+          margin: 1rem 1.5rem .5rem;
         }
       }
     }
   }
 }
 
-/*@media only screen and (max-width: 500px) {
-  .products-search {
-    .results {
-      .results-header {
-        justify-content: center;
-        flex-direction: column-reverse;
-        .results-number {
-          font-size: 1.8rem;
-          font-weight: bold;
-          text-transform: uppercase;
-          flex-grow: 1;
-          margin-top: 3rem;
-        }
-        .sort-dropdown {
-          display: inline-block;
-        }
-      }
-    }
-  }
-}
-*/
