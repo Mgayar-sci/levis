@@ -19,6 +19,8 @@ import j5 from '../src/img/j5.png';
 import j6 from '../src/img/j6.png';
 import ar from '../src/img/ar.png';
 import en from '../src/img/en.png';
+import v1 from '../src/img/v1.png';
+import v2 from '../src/img/v2.png';
 
 export default {
     theme: {
@@ -858,118 +860,118 @@ export default {
             data: [
                 {
                     img: j1,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                     offer: true
                 }, {
                     img: j2,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                 }, {
                     img: j3,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                     offer: true
                 }, {
                     img: j4,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                 }, {
                     img: j5,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                     offer: true
                 }, {
                     img: j6,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                 }, {
                     img: j1,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                     offer: true
                 }, {
                     img: j2,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                 }, {
                     img: j3,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                     offer: true
                 }, {
                     img: j4,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                 }, {
                     img: j5,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                     offer: true
                 }, {
                     img: j6,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                 }, {
                     img: j1,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                     offer: true
                 }, {
                     img: j2,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                 }, {
                     img: j3,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                     offer: true
                 }, {
                     img: j4,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                 }, {
                     img: j5,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
                     offer: true
                 }, {
                     img: j6,
-                    link: { route: '/', label: 'quick view' },
+                    link: { route: '/product', label: 'quick view' },
                     dec: 'lorem ipsum dolor sit ameit skado salo smil doliggo',
                     price: 2500,
                     currency: 'egp',
@@ -981,6 +983,41 @@ export default {
             images: [
                 j1, j2, j3, j4
             ]
+        },
+        info:{
+            title:'skinny fit jeans',
+            id:'002563256.2365',
+            price:450,
+            currency:'egp',
+            variants:{
+                title:'color',
+                choises:[{
+                    img:v1,
+                    value:"blue"
+                },{
+                    img:v2,
+                    value:"black"
+                },{
+                    img:v2,
+                    value:"red"
+                },{
+                    img:v1,
+                    value:"green"
+                },{
+                    img:v1,
+                    value:"white"
+                },{
+                    img:v2,
+                    value:"yellow"
+                },{
+                    img:v2,
+                    value:"lightblue"
+                },{
+                    img:v1,
+                    value:"orange"
+                }]
+            }
+
         }
     }
 }
