@@ -1,10 +1,32 @@
 .tag {
-    color: var(--primary);
-    border: 1px solid #949494;
+  color: var(--primary);
+  border: 1px solid #949494;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0.5rem;
+  &.square {
+    width: 4rem;
+    height: 4rem;
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    &.crossed {
+      position: relative;
+      &::after {
+        content: "";
+        height: 5.5rem;
+        width: 1px;
+        background: black;
+        display: block;
+        color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateX(1.9rem) translateY(-0.9rem) rotate(45deg);
+      }
+    }
+  }
   &-label {
     font-size: 1.2rem;
     font-weight: bold;
@@ -12,7 +34,7 @@
     display: inline-block;
     margin: 0 1rem;
   }
-  .tag-icon{
-      cursor: pointer;
+  .tag-icon {
+    cursor: pointer;
   }
 }

@@ -16,9 +16,9 @@ const LinksCarousel = ({ items }) => {
                     component={({ item: { header, route, label } }) => {
                         return (
                             <div className="carousel-element">
-                                <p className="title" >
+                                {/*<p className="title" >
                                     {header}
-                                </p>
+                        </p>*/}
                                 <NavLink className="link" to={route} >
                                     {label}
                                 </NavLink>

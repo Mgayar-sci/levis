@@ -1,0 +1,13 @@
+.selection-group {
+    h5{
+        text-transform: capitalize;
+        font-size: 1.5rem;
+    }
+  .selection-group-element {
+    display: flex;
+    .tag {
+      margin: 0 0.5rem 0.5rem 0;
+      border-width: 2px;
+    }
+  }
+}

@@ -795,7 +795,7 @@ export default {
         header: "jeans",
         background: ad,
         searchTitle: 'refine',
-        sort:['price low to high','price high to low','size hight to low'],
+        sort: ['price low to high', 'price high to low', 'size hight to low'],
         search: [
             {
                 title: 'colour',
@@ -984,37 +984,91 @@ export default {
                 j1, j2, j3, j4
             ]
         },
-        info:{
-            title:'skinny fit jeans',
-            id:'002563256.2365',
-            price:450,
-            currency:'egp',
-            variants:{
-                title:'color',
-                choises:[{
-                    img:v1,
-                    value:"blue"
-                },{
-                    img:v2,
-                    value:"black"
-                },{
-                    img:v2,
-                    value:"red"
-                },{
-                    img:v1,
-                    value:"green"
-                },{
-                    img:v1,
-                    value:"white"
-                },{
-                    img:v2,
-                    value:"yellow"
-                },{
-                    img:v2,
-                    value:"lightblue"
-                },{
-                    img:v1,
-                    value:"orange"
+        info: {
+            title: 'skinny fit jeans',
+            id: '002563256.2365',
+            price: 450,
+            currency: 'egp',
+            variants: {
+                title: 'color',
+                choises: [{
+                    img: v1,
+                    value: "blue"
+                }, {
+                    img: v2,
+                    value: "black"
+                }, {
+                    img: v2,
+                    value: "red"
+                }, {
+                    img: v1,
+                    value: "green"
+                }, {
+                    img: v1,
+                    value: "white"
+                }, {
+                    img: v2,
+                    value: "yellow"
+                }, {
+                    img: v2,
+                    value: "lightblue"
+                }, {
+                    img: v1,
+                    value: "orange"
+                }]
+            },
+            size: {
+                fit: [{
+                    title: 'waist',
+                    choises: [{
+                        label: 38,
+                        value: 38
+                    }, {
+                        label: 42,
+                        value: 42
+                    }, {
+                        label: 44,
+                        value: 44
+                    }, {
+                        label: 46,
+                        value: 46
+                    }, {
+                        label: 48,
+                        value: 48
+                    }, {
+                        label: 50,
+                        value: 50
+                    }, {
+                        label: 52,
+                        value: 52
+                    }, {
+                        label: 54,
+                        value: 54
+                    }, {
+                        label: 58,
+                        value: 58
+                    }]
+                }, {
+                    title: 'length',
+                    choises: [{
+                        label: 100,
+                        value: 100
+                    }, {
+                        label: 102,
+                        value: 102
+                    }, {
+                        label: 104,
+                        value: 104
+                    }, {
+                        label: 106,
+                        value: 106
+                    }, {
+                        label: 108,
+                        value: 108
+                    }, {
+                        label: 112,
+                        value: 112
+                    }]
                 }]
             }
 

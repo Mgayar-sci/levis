@@ -3,6 +3,7 @@
     color: var(--primary);
     font-size: 1.5rem;
     margin: 0;
+    position: static;
 
     .navbar-nav {
       margin-left: 11rem;
@@ -23,16 +24,17 @@
 
     .dropdown-toggle {
       white-space: nowrap;
+      outline: none;
       font-weight: bold;
       background: transparent;
       text-transform: uppercase;
       color: var(--primary-light);
       border-radius: 0;
-      border-color: transparent;
+      border: none;
+      border-bottom: 4px solid transparent;
       font-size: 1.4rem;
-      padding: 0.5rem;
-      padding-bottom: 2rem;
-      padding-top: 1.5rem;
+      padding: 1.5rem 0.5rem 2rem;
+      margin: 0 0.5rem;
       &::after {
         color: transparent;
         display: none;
@@ -41,8 +43,8 @@
 
     &.show > button.dropdown-toggle.btn {
       border-bottom: none;
-      border-color: silver;
       box-shadow: none;
+      border-bottom: 4px solid #c43730;
     }
 
     .dropdown-toggle {
