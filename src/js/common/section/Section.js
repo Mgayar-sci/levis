@@ -19,7 +19,12 @@ const Section = (props) => {
                 <p className="main">
                     {data.home.jeans.main}
                 </p>
-                {data.home.jeans.links.map(({ label, route }, i) => <NavButton route={route} variant="seconadry" className="link" >{label}</NavButton>)
+                {data.home.jeans.links.map(({ label, route }, i) => (
+                    <NavButton
+                        route={route}
+                        variant="white"
+                        className="link"
+                    >{label}</NavButton>))
                 }
             </div>
         </Box>

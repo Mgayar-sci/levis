@@ -15,7 +15,7 @@ class MobileNav extends React.Component {
         const { logo, menus,extra } = this.props;
         return (
             <div className={`${this.props.className} fixed-top`}>
-                <div className="mobile-nav">
+                <div className="mobile-nav flex-between">
                     <NavMenu
                         items={menus}
                         extra={extra}

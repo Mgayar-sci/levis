@@ -1,10 +1,9 @@
 import React from 'react';
 import Tag from '../tag/Tag';
-import data from '../../../data';
 import './selection-group.scss';
-const Data = data.product.info.size.fit[0];
+import { Tooltip } from 'react-bootstrap';
 
-export default function SelectionGroup({ title = Data.title, elements = Data.choises, handleSelect }) {
+export default function SelectionGroup({ title, choises, handleSelect, selectedItems }) {
     return (
         <div className="selection-group" >
             <h5>
@@ -12,12 +11,15 @@ export default function SelectionGroup({ title = Data.title, elements = Data.cho
             </h5>
             <div className="selection-group-element">
                 {
-                    elements.map(({ label, value }) => (
+                    choises.map(({ label, value, out }, i) => (
                         <Tag
+                            key={i}
                             label={label}
                             close={false}
-                            square crossed
+                            square
+                            disabled={out}
                             onClick={() => { handleSelect(title, value) }}
+                            selected={selectedItems[title] === value}
                         />
                     ))
                 }

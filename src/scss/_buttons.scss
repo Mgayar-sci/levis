@@ -1,4 +1,4 @@
-.btn-nav{
+.button{
     border-radius: 0px;
     padding: 1rem ;
     font-size: 1.8rem;
@@ -6,26 +6,35 @@
     text-decoration: none !important;
     font-weight: bold;
     display: inline-block;
-
-      &:hover{
-        opacity: .95;
-      }
+    transition: all .3s ease;
 
       &--primary{
         color: var(--primary);
         border-color: var(--primary);
         background: var(--white) ;
         &:hover{
-          color: var(--primary);
+          color: var(--white);
+          background: var(--secondary);
+        }
+      }
+
+      &--white{
+        color: var(--white);
+        border-color: var(--white);
+        background: var(--primary) ;
+        &:hover{
+          color: var(--secondary);
+          background: var(--white);
         }
       }
 
       &--secondary{
         color: var(--white);
         border-color: var(--white);
-        background: var(--primary) ;
+        background: var(--secondary) ;
         &:hover{
-          color: var(--white);
+          color: var(--secondary);
+          background: var(--white);
         }
       }
 
@@ -33,6 +42,9 @@
         font-size: 1.8rem !important;
         font-weight: bolder !important;
         border-bottom: .5rem solid;
-        background: transparent;
+        background: transparent !important;
+         &:hover{
+             color: var(--secondary)
+         }
       }
 }

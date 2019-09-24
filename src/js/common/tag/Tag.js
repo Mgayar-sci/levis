@@ -4,15 +4,19 @@ import { ic_close } from 'react-icons-kit/md/ic_close';
 
 import './tag.scss';
 
-export default function Tag({ label, onClick, onClose, close = true, square, crossed }) {
+export default function Tag({ label, onClick, onClose, close = true, square, disabled, selected }) {
     return (
         <div
             className={
-                `tag ${square ? "square" : ""} ${
-                crossed ? "crossed" : ""
+                `tag ${
+                square ? "square" : ""
+                } ${
+                disabled ? "crossed" : ""
+                } ${
+                selected ? "selected" : ""
                 }`
             }
-            onClick={onClick}
+            onClick={!disabled ? onClick : () => { }}
         >
             <span className="tag-label" >
                 {label}

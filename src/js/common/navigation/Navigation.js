@@ -17,7 +17,7 @@ const Navigation = ({ brand, menus }) => {
         <NavLink className="navbar-brand" to="/">
           <img src={brand} alt="logo" className="logo" />
         </NavLink>
-        <div className="nav-container" >
+        <div className="nav-container flex-between" >
           <div className="nav-left">
             <ul className="menu-horizontal" >
               {

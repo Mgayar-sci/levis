@@ -39,7 +39,14 @@ export default class ProductInfo extends Component {
                 </div>
                 <div className="product-section" >
                     <InfoSection
+                        title="sizes"
+                        sideMenu="size guide"
+                        handleSelect={this.handleSelectItem}
+                        selectedItems={this.state}
                     />
+                </div>
+                <div className="product-section">
+                    
                 </div>
             </div>
         )

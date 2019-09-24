@@ -91,8 +91,8 @@ class NavMenu extends React.Component {
                                     items.map(({ title, route, color, items }, i) => (
                                         <div
                                             key={i}
-                                            className="link-item"
-                                            style={{ color: color || "var(--primary-light)" }}
+                                            className="link-item flex-between"
+                                            style={{ color: color || "var(--primary)" }}
                                             to={route}
                                             onClick={() => showSideMenu(title, items)}
                                         >
@@ -129,7 +129,7 @@ class NavMenu extends React.Component {
                         </nav>
                         <nav className="side-menu" >
                             <ul className="menus-list" >
-                                <li className="side-menu-header" >
+                                <li className="side-menu-header flex-between " >
                                     <BaseIcon
                                         color="secondary"
                                         className=""

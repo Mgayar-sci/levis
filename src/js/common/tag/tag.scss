@@ -13,6 +13,7 @@
     justify-content: center;
     &.crossed {
       position: relative;
+      cursor: not-allowed;
       &::after {
         content: "";
         height: 5.5rem;
@@ -25,6 +26,9 @@
         left: 0;
         transform: translateX(1.9rem) translateY(-0.9rem) rotate(45deg);
       }
+    }
+    &.selected {
+      border-color: red;
     }
   }
   &-label {

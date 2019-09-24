@@ -47,7 +47,7 @@ $menu-width: 300px;
         z-index: 100;
         height: 100%;
         width: $menu-width;
-        background: var(--secondary);
+        background: var(--white);
         overflow-x: hidden;
       }
       .side-menu {
@@ -61,7 +61,7 @@ $menu-width: 300px;
         z-index: 105;
         height: 100%;
         width: $menu-width;
-        background: var(--secondary);
+        background: var(--white);
         overflow-x: hidden;
       }
     }
@@ -79,27 +79,24 @@ $menu-width: 300px;
         width: $menu-width;
         .btn-close {
           float: right;
-          color: var(--secondary);
+          color: var(--white);
           padding: 0.7rem 1rem;
         }
       }
 
       .sign-in {
-        background: var(--primary-light);
-        color: var(--secondary);
+        background: var(--primary);
+        color: var(--white);
         text-transform: capitalize;
         padding: 0.8rem;
         a {
-          color: var(--secondary);
+          color: var(--white);
 
           font-size: 1.8rem;
         }
       }
       .link-item {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: var(--primary-light);
+        color: var(--primary);
         padding: 1.5rem 1rem;
         font-size: 1.8rem;
         font-weight: bold;
@@ -107,15 +104,12 @@ $menu-width: 300px;
       }
 
       .side-menu-header {
-        background: var(--primary-light);
-        color: var(--secondary);
+        background: var(--primary);
+        color: var(--white);
         padding: 0.8rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         span {
           text-transform: uppercase;
-          color: var(--secondary);
+          color: var(--white);
           font-size: 1.8rem;
         }
       }
@@ -126,19 +120,19 @@ $menu-width: 300px;
         padding: 1rem;
         display: flex;
         flex-direction: column;
-        background: var(--primary-light);
-        color: var(--secondary);
+        background: var(--primary);
+        color: var(--white);
         li {
           padding: 1rem 0;
           a {
-            color: var(--secondary);
+            color: var(--white);
             text-transform: capitalize;
             font-size: 1.8rem;
           }
         }
         .language {
           display: flex;
-          border-top: 1px solid var(--secondary);
+          border-top: 1px solid var(--white);
           padding: 2rem 0rem;
           margin-top: 1rem;
           a {

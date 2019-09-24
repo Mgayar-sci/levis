@@ -84,7 +84,7 @@ class ProductsSearch extends React.Component {
                         </Col>
                         <Col xs={12} sm={12} md={9}>
                             <div className="results" >
-                                <div className="results-header">
+                                <div className="results-header flex-between ">
                                     <h2 className="results-number" >
                                         {data.products.results.number} {`  ${data.products.results.unit}`}
                                     </h2>
@@ -116,7 +116,7 @@ class ProductsSearch extends React.Component {
                                     }}
                                 />
                             </div>
-                            <div className="show-more" >
+                            <div className="show-more flex-center" >
                                 <button
                                     className="btn btn-more"
                                 >

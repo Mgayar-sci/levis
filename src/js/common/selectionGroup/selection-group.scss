@@ -5,6 +5,7 @@
     }
   .selection-group-element {
     display: flex;
+    flex-wrap: wrap;
     .tag {
       margin: 0 0.5rem 0.5rem 0;
       border-width: 2px;

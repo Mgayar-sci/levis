@@ -1,15 +1,13 @@
 // default color-pallette
-// black:#000000
-// light:#333333
+// primary:#333333
 // white:#ffffff
+// secondary:#c43730
 
 :root {
-  --primary: #000000;
-  --primary-light: #333333;
-  --secondary: #ffffff;
-  --secondary-light: #bebebe;
+  --primary: #333333;
+  --secondary: #c43730;
+  --white:#ffffff;
   --primary-font: 'Cairo', sans-serif;
-  --secondary-font: 'Fira Sans', sans-serif;
   --headings-font: 'Gloria Hallelujah', cursive;
 }
 

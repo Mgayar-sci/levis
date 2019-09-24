@@ -7,15 +7,15 @@ const NavButton = ({ variant = "primary", outlined, route, children, fullWidth, 
     const style = {
         width: fullWidth ? '100%' : 'auto',
     }
-    const shape = outlined ? "btn-nav--outlined" : "";
-    const type = variant === "primary" ? "btn-nav--primary" : "btn-nav--secondary";
+    const shape = outlined ? "button--outlined" : "";
+    const type = `button--${variant}`;
     const classes = `${shape} ${type} ${className}`;
 
     return (
         <NavLink to={route}
             style={style}
             {...otherProps}
-            className={`btn-nav ${classes}`}
+            className={`button ${classes}`}
         >
             {children}
         </NavLink>

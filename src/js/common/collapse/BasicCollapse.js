@@ -22,7 +22,7 @@ class BasicCollapse extends Component {
         const { open } = this.state
         return (
             <div className={`basic-collapse ${open && "show"}`} >
-                <div className="basic-collapse-toggle" onClick={this.toggleShow} >
+                <div className="flex-between  basic-collapse-toggle" onClick={this.toggleShow} >
                     <p className="basic-collapse-header" >
                         {header}
                     </p>

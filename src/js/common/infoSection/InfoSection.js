@@ -2,8 +2,11 @@ import React from 'react';
 import './info-section.scss';
 import SimpleGrid from '../simpleGrid/SimpleGrid';
 import SelectionGroup from '../selectionGroup/SelectionGroup';
+import data from '../../../data';
 
-export default function InfoSection({ title = "sizes", sideMenu = "size guide" }) {
+export default function InfoSection({ title, handleSelect, sideMenu, selectedItems }) {
+    const selectionGroupItems =
+        data.product.info.size.fit.map((i) => ({ ...i, handleSelect, selectedItems }))
     return (
         <div className="info-section" >
             <div className="info-section-header" >
@@ -15,10 +18,14 @@ export default function InfoSection({ title = "sizes", sideMenu = "size guide" }
                 </a>
             </div>
             <div className="info-section-main" >
-                <SelectionGroup />
-                {/*<SimpleGrid
-                    items={[]}
-                />*/}
+                {<SimpleGrid
+                    items={selectionGroupItems}
+                    Component={SelectionGroup}
+                    colProps={{
+                        sm: 12,
+                        md: 6
+                    }}
+                />}
             </div>
         </div>
     )

@@ -1022,16 +1022,19 @@ export default {
                     title: 'waist',
                     choises: [{
                         label: 38,
-                        value: 38
+                        value: 38,
+                        out:true
                     }, {
                         label: 42,
-                        value: 42
+                        value: 42,
+                        out:true
                     }, {
                         label: 44,
                         value: 44
                     }, {
                         label: 46,
-                        value: 46
+                        value: 46,
+                        out:true
                     }, {
                         label: 48,
                         value: 48
@@ -1040,7 +1043,8 @@ export default {
                         value: 50
                     }, {
                         label: 52,
-                        value: 52
+                        value: 52,
+                        out:true
                     }, {
                         label: 54,
                         value: 54
@@ -1052,7 +1056,8 @@ export default {
                     title: 'length',
                     choises: [{
                         label: 100,
-                        value: 100
+                        value: 100,
+                        out:true
                     }, {
                         label: 102,
                         value: 102
@@ -1061,7 +1066,8 @@ export default {
                         value: 104
                     }, {
                         label: 106,
-                        value: 106
+                        value: 106,
+                        out:true
                     }, {
                         label: 108,
                         value: 108
