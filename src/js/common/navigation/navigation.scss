@@ -3,7 +3,7 @@
     border-bottom: 1px solid silver;
   }
 
-  .navbar{
+  .navbar {
     padding: 0 1rem;
   }
 
@@ -39,10 +39,18 @@
       }
     }
     .nav-right {
-      width: 220px;
       & > div {
         display: flex;
         align-items: center;
+        input {
+          width: 100px;
+          transition: width ease 0.4s;
+          outline: none;
+        }
+        input:focus {
+          width: 200px;
+          outline: none;
+        }
       }
       .cart-container {
         margin: -1.2rem 0.5rem 0 0.5rem;
@@ -51,4 +59,17 @@
   }
 }
 
-
+@media only screen and (max-width: 1150px) {
+  .navigation {
+    .nav-container {
+      .nav-right {
+        & > div {
+          input:focus {
+            width: 100px;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}

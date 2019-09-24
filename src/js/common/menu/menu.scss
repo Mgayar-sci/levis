@@ -32,9 +32,16 @@
       border-radius: 0;
       border: none;
       border-bottom: 4px solid transparent;
+      transition: all .3s ease;
       font-size: 1.4rem;
       padding: 1.5rem 0.5rem 2rem;
       margin: 0 0.5rem;
+
+      &:hover{
+        border-bottom: 4px solid silver;
+      }
+
+      // for remove the carret
       &::after {
         color: transparent;
         display: none;

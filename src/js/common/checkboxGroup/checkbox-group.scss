@@ -1,7 +1,9 @@
 .checkbox-group {
   margin: 0.7rem;
   .checkbox {
-    width: 0px;
+    width: 0;
+    opacity: 0;
+    height: 0;
     & + label::before {
       content: "\2713\0020";
       width: 2rem;

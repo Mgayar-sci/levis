@@ -9,6 +9,7 @@
       border: 1px solid silver;
       border-left: none;
       border-radius: 0 ;
+      outline: none;
     }
 
     input.form-control {
@@ -18,6 +19,7 @@
       padding: 1.5rem;
       border-color: silver;
       font-size: 1.8rem;
+      box-shadow: none;
     }
   }
 }
