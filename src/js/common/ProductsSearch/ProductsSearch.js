@@ -15,7 +15,7 @@ class ProductsSearch extends React.Component {
         super(props);
         this.state = {
             filterItems: this.getInitialState(),
-            sort: 'date'
+            sort: 'price low to high'
         }
         this.handleClearAll = this.handleClearAll.bind(this);
         this.getInitialState = this.getInitialState.bind(this);
@@ -72,7 +72,7 @@ class ProductsSearch extends React.Component {
             <div className="products-search">
                 <Container fluid >
                     <Row>
-                        <Col xs={12} sm={12} md={4} lg={3} >
+                        <Col xs={12} sm={12} md={3}>
                             <h2 className="search-title" >
                                 {data.products.searchTitle}
                             </h2>
@@ -82,7 +82,7 @@ class ProductsSearch extends React.Component {
                                 formState={filterItems}
                             />
                         </Col>
-                        <Col xs={12} sm={12} md={8} lg={9} >
+                        <Col xs={12} sm={12} md={9}>
                             <div className="results" >
                                 <div className="results-header">
                                     <h2 className="results-number" >
@@ -97,9 +97,10 @@ class ProductsSearch extends React.Component {
                                         <div className="sort-dropdown" >
                                             <DropdownMenu
                                                 selectedItem={sort}
-                                                title={`sort by  ${sort}`}
-                                                items={['date', 'size']}
+                                                title={sort}
+                                                items={data.products.sort}
                                                 handleSelect={this.handleSort}
+                                                right
                                             />
                                         </div>
                                     </div>
@@ -114,6 +115,13 @@ class ProductsSearch extends React.Component {
                                         lg: 4,
                                     }}
                                 />
+                            </div>
+                            <div className="show-more" >
+                                <button
+                                    className="btn btn-more"
+                                >
+                                    show more
+                                </button>
                             </div>
                         </Col>
                     </Row>

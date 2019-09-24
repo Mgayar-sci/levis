@@ -793,6 +793,7 @@ export default {
         header: "jeans",
         background: ad,
         searchTitle: 'refine',
+        sort:['price low to high','price high to low','size hight to low'],
         search: [
             {
                 title: 'colour',

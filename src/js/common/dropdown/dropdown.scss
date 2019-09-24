@@ -9,8 +9,16 @@
     text-transform: uppercase;
     margin-right: 2rem;
   }
+  .dropdown-menu{
+    min-width: 100%;
+  }
+  .dropdown-menu.right{
+    right: 0;
+    left: unset !important;
+  }
   .dropdown-item {
     padding: 1rem 1.5rem;
     text-transform: capitalize;
-}
+    font-size: 2rem;
+  }
 }

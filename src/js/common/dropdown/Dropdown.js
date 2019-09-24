@@ -4,15 +4,15 @@ import { Dropdown } from 'react-bootstrap';
 import './dropdown.scss';
 
 export default function DropdownMenu({
-    variant, items, title, buttonClassName, id, rootClass, handleSelect, selectedItem
+    variant, items, title, buttonClassName, id, rootClass, handleSelect, selectedItem, right
 }) {
 
     return (
-        <Dropdown className={`d-inline-block w-100 ${rootClass}`}>
-            <Dropdown.Toggle variant={variant} className={`w-100 ${buttonClassName}`} id={id || 'dropdown-basic'}>
+        <Dropdown className={`d-inline-block ${rootClass}`}>
+            <Dropdown.Toggle variant={variant} className={`${buttonClassName}`} id={id || 'dropdown-basic'}>
                 <span className="dropdown-title">{title || selectedItem}</span>
             </Dropdown.Toggle>
-            <Dropdown.Menu className={`w-100 ${buttonClassName}`}>
+            <Dropdown.Menu className={`${buttonClassName} ${right && "right"}`}>
                 {items.map(i => (
                     <Dropdown.Item onClick={() => handleSelect(i)} key={i}>
                         {i}
@@ -24,7 +24,7 @@ export default function DropdownMenu({
 }
 
 DropdownMenu.defaultProps = {
-    variant:'transparent',
+    variant: 'transparent',
     items: [],
     rootClass: ''
 };
