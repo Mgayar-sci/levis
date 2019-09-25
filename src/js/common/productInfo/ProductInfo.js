@@ -1,17 +1,18 @@
 import React, { Component } from 'react'
 
-import './product-info.scss';
 import ProductHeader from '../productHeader/ProductHeader';
 import InfoSection from '../infoSection/InfoSection';
 import SelectionSubmit from '../selectionSubmit/SelectionSubmit';
 
+import './product-info.scss';
 
 export default class ProductInfo extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            color: ""
+            color: "",
+            qty:1
         }
         this.handleSelectItem = this.handleSelectItem.bind(this);
     }

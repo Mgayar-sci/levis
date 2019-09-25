@@ -1,60 +1,53 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap';
+import SimpleGrid from '../simpleGrid/SimpleGrid';
 
 import './description.scss';
 
-export default function Description({ desc }) {
+export default function Description({ data }) {
     return (
         <div className="description" >
-            <Row>
-                <Col>
-                    <h3 className="desc" >
-                        description
-                </h3>
-                    <p>
-                        {desc}
-                    </p>
-                </Col>
-                <Col>
-                    <h3>
-                        fit and sizing
-                </h3>
-                    <ul>
-                        <li>
-                            <p>
-                                sadsa das dsa dasdas sadas dasd asdas dasdsadasd
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                sadsa das dsa dasdas sadas dasd asdas dasdsadasd
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                sadsa das dsa dasdas sadas dasd asdas dasdsadasd
-                            </p>
-                        </li>
-                    </ul>
-                </Col>
-                <Col>
-                    <h3>
-                        material
-                </h3>
-                    <ul>
-                        <li>
-                            <p>
-                                sadsa das dsa dasdas sadas dasd asdas dasdsadasd
-                            </p>
-                        </li>
-                    </ul>
-                </Col>
-            </Row>
+            <SimpleGrid
+                items={data}
+                colProps={{
+                    sm: 4
+                }}
+                Component={({ title, text }) => {
+                    switch (typeof text) {
+                        case "string":
+                            return (
+                                <>
+                                    <h3>
+                                        {title}
+                                    </h3>
+                                    <p>
+                                        {text}
+                                    </p>
+                                </>
+                            )
+
+                        default:
+                            return (
+                                <>
+                                    <h3>
+                                        {title}
+                                    </h3>
+                                    <ul>
+                                        {
+                                            text.map((t) => (
+                                                <li>
+                                                    <p>
+                                                        {t}
+                                                    </p>
+                                                </li>
+                                            ))
+                                        }
+                                    </ul>
+                                </>
+                            )
+                    }
+                }}
+            />
         </div>
     )
 }
 
-Description.defaultProps = {
-    desc: "lorem ipsum dol filk jalli kolmoon dolkami nomm batg",
-
-}

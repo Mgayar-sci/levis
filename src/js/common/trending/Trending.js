@@ -1,8 +1,8 @@
 import React from 'react';
 import data from '../../../data';
 import { Container } from 'react-bootstrap';
-import TrendingCarousel from '../trendingcarousel/TrendingCarousel';
-import Media from 'react-media';
+import TrendingItem from '../trendingItem/TrendingItem';
+import MultiCarousel from '../multiCarousel/MultiCarousel';
 
 import './trending.scss';
 
@@ -42,18 +42,11 @@ const Trending = (props) => {
                 {data.home.trending.header}
             </p>
             <Container fluid >
-                {
-                    sizes.map(({ maxWidth, minWidth, col, itemsPerView }) => (
-                        <Media query={{ maxWidth, minWidth }}>
-                            {match => match && (
-                                <TrendingCarousel
-                                    col={col}
-                                    items={data.home.trending.products}
-                                    itemsPerView={itemsPerView}
-                                />)}
-                        </Media>
-                    ))
-                }
+                <MultiCarousel
+                    itemsData={data.home.trending.products}
+                    sizes={sizes}
+                    Component={TrendingItem}
+                />
             </Container>
         </div>
     )

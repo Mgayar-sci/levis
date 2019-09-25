@@ -9,7 +9,7 @@ const SimpleGrid = ({ colProps, gridProps, items = [], Component }) => {
             <Row {...gridProps} >
                 {
                     items.map((i, index) => (
-                        <Col {...colProps} sm={sm} key={index} >
+                        <Col {...colProps} sm={sm}  key={index} >
                             {Component ? <Component {...i} /> : i}
                         </Col>
                     ))

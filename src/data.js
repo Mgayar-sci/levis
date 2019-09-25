@@ -21,7 +21,12 @@ import ar from '../src/img/ar.png';
 import en from '../src/img/en.png';
 import v1 from '../src/img/v1.png';
 import v2 from '../src/img/v2.png';
+import f1 from '../src/img/f1.png';
+import f2 from '../src/img/f2.png';
+import f3 from '../src/img/f3.png';
+import f4 from '../src/img/f4.png';
 import front from '../src/img/front.png';
+import afterpay from '../src/img/afterpay.png';
 
 export default {
     theme: {
@@ -982,7 +987,7 @@ export default {
     product: {
         gallery: {
             images: [
-                front, j2, j3, j4
+                f1, f3, f4
             ]
         },
         info: {
@@ -990,6 +995,21 @@ export default {
             id: '002563256.2365',
             price: 450,
             currency: 'egp',
+            afterpay:{
+                logo:afterpay,
+                background:finalTouch,
+                text:'now available',
+            },
+            description: [{
+                title: "description",
+                text: "Long sleeve denim Western shirt Worn by pioneers, outliers and outcasts, these shirts have been tested by generations",
+            }, {
+                title: "fit & sizing",
+                text: ["Classic fit", "Order true to size for a more tailored fit or a size up for a more relaxed fit"],
+            }, {
+                title: "material",
+                text: ["100% Cotton", "Denim", "Non-Stretch", "Long sleeves with snap closures at cuffs"]
+            }],
             variants: {
                 title: 'color',
                 choises: [{
@@ -1024,18 +1044,18 @@ export default {
                     choises: [{
                         label: 38,
                         value: 38,
-                        out:true
+                        out: true
                     }, {
                         label: 42,
                         value: 42,
-                        out:true
+                        out: true
                     }, {
                         label: 44,
                         value: 44
                     }, {
                         label: 46,
                         value: 46,
-                        out:true
+                        out: true
                     }, {
                         label: 48,
                         value: 48
@@ -1045,7 +1065,7 @@ export default {
                     }, {
                         label: 52,
                         value: 52,
-                        out:true
+                        out: true
                     }, {
                         label: 54,
                         value: 54
@@ -1058,7 +1078,7 @@ export default {
                     choises: [{
                         label: 100,
                         value: 100,
-                        out:true
+                        out: true
                     }, {
                         label: 102,
                         value: 102
@@ -1068,7 +1088,7 @@ export default {
                     }, {
                         label: 106,
                         value: 106,
-                        out:true
+                        out: true
                     }, {
                         label: 108,
                         value: 108

@@ -13,9 +13,9 @@ export default function InfoSection({ title, handleSelect, sideMenu, selectedIte
                 <h3>
                     {title}
                 </h3>
-                <a>
+                <p>
                     {sideMenu}
-                </a>
+                </p>
             </div>
             <div className="info-section-main" >
                 {<SimpleGrid

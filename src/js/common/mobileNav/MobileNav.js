@@ -7,7 +7,6 @@ import InputWithIcon from '../inputWithIcon/InputWithIcon';
 import NavMenu from '../navMenu/NavMenu';
 import './mobile-nav.scss';
 import { NavLink } from 'react-router-dom';
-import data from '../../../data';
 
 class MobileNav extends React.Component {
 

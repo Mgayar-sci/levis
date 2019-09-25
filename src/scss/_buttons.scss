@@ -47,7 +47,8 @@
         border-bottom: .5rem solid;
         background: transparent !important;
          &:hover{
-             color: var(--secondary)
+             color: var(--secondary);
+             border-color: var(--secondary);
          }
       }
 }

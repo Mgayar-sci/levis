@@ -17,10 +17,10 @@ export default function SelectionSubmit({ handleSelect, selectedItems }) {
                     rootClass="mx-4"
                 />
             </div>
-            <button className="button button--white btn px-5 py-3 mx-4" >
+            <button className="button button--white btn mx-4" >
                 add To bag
             </button>
-            <button className="btn button button--secondary px-5 py-3 mx-4 " >
+            <button className="btn button button--secondary mx-4 " >
                 checkout
             </button>
         </div>
