@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17f006ea0b3cf41fcb738f211ffc2ed0",
+    "revision": "ab9d7b3f9d57e8c70272e071c3bd8f57",
     "url": "/levis/index.html"
   },
   {
-    "revision": "ffcdfd31161cfa40b5db",
-    "url": "/levis/static/css/main.f42f2e0f.chunk.css"
+    "revision": "6f6eeb347659f6f8509a",
+    "url": "/levis/static/css/main.42f09c8c.chunk.css"
   },
   {
-    "revision": "40fc30ac239f265c805a",
-    "url": "/levis/static/js/2.878029ec.chunk.js"
+    "revision": "a44a4aac4b354bb9bf40",
+    "url": "/levis/static/js/2.fc01cc0f.chunk.js"
   },
   {
-    "revision": "ffcdfd31161cfa40b5db",
-    "url": "/levis/static/js/main.1eda797c.chunk.js"
+    "revision": "6f6eeb347659f6f8509a",
+    "url": "/levis/static/js/main.821b4619.chunk.js"
   },
   {
     "revision": "37f8d44f4b2aaa46da7d",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7996a1b4bb56a7231204099a3c3afec0",
     "url": "/levis/static/media/final2.7996a1b4.png"
+  },
+  {
+    "revision": "1e447b617e920bfad073e830b24c9bc5",
+    "url": "/levis/static/media/front.1e447b61.png"
   },
   {
     "revision": "14b982a41726ff646f353cc4a1730498",
