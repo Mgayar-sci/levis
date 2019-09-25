@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab9d7b3f9d57e8c70272e071c3bd8f57",
+    "revision": "0beac034f9c1890f3d09963d6724935b",
     "url": "/levis/index.html"
   },
   {
-    "revision": "6f6eeb347659f6f8509a",
-    "url": "/levis/static/css/main.42f09c8c.chunk.css"
+    "revision": "eee00a8a5f13b8ba098b",
+    "url": "/levis/static/css/main.cfe4cba0.chunk.css"
   },
   {
-    "revision": "a44a4aac4b354bb9bf40",
-    "url": "/levis/static/js/2.fc01cc0f.chunk.js"
+    "revision": "011466ab1f818fd4e19d",
+    "url": "/levis/static/js/2.9283ac5d.chunk.js"
   },
   {
-    "revision": "6f6eeb347659f6f8509a",
-    "url": "/levis/static/js/main.821b4619.chunk.js"
+    "revision": "eee00a8a5f13b8ba098b",
+    "url": "/levis/static/js/main.56072f5c.chunk.js"
   },
   {
     "revision": "37f8d44f4b2aaa46da7d",
@@ -24,12 +24,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/levis/static/media/ad.bfd3ccbe.jpg"
   },
   {
+    "revision": "0e1ee62394ddd740c9e6f2633ed968b3",
+    "url": "/levis/static/media/afterpay.0e1ee623.png"
+  },
+  {
     "revision": "71b351d2b778248c34f68f1d2d1f59e1",
     "url": "/levis/static/media/banner.71b351d2.png"
   },
   {
     "revision": "3084ce8a841f4c540c3051330d6fb64c",
     "url": "/levis/static/media/branches.3084ce8a.png"
+  },
+  {
+    "revision": "acdc89a7842856ecffb2553f8de333bc",
+    "url": "/levis/static/media/f1.acdc89a7.png"
+  },
+  {
+    "revision": "675a68e8b3e4eaad7814d01cde3a27b1",
+    "url": "/levis/static/media/f2.675a68e8.png"
+  },
+  {
+    "revision": "fbe061bf4e60ad0f1e067b2c213399aa",
+    "url": "/levis/static/media/f3.fbe061bf.png"
+  },
+  {
+    "revision": "44b18439304d0ac77bfc75311b33e38d",
+    "url": "/levis/static/media/f4.44b18439.png"
   },
   {
     "revision": "9a19656729242ba515d1046e11635109",
