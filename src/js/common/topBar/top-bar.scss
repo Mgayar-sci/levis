@@ -7,14 +7,14 @@
   justify-content: flex-end;
   flex-wrap: wrap;
   background: var(--primary);
-  .links {
+  &__main-links {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
     margin:  0;
     padding: 0;
-    .link-item {
+    .main-link {
       display: inline-block;
       margin: 0 1rem;
       color: var(--white);
@@ -27,7 +27,7 @@
       }
     }
   }
-  .side-links {
+  &__side-links {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -59,7 +59,7 @@
 @media only screen and (max-width: 800px) {
   .tob-bar {
     justify-content: space-between;
-    .side-links {
+    &__side-links {
       .side-link {
         border: none;
       }
@@ -71,11 +71,11 @@
   .tob-bar {
     justify-content: space-between;
     flex-direction: column-reverse;
-    .links {
+    &__main-links {
       width: 100%;
       justify-content: space-between;
     }
-    .side-links {
+    &__side-links {
       width: 100%;
       justify-content: space-between;
       .side-link {

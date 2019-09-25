@@ -12,13 +12,13 @@ const Section = (props) => {
             overlayCol="#ffffff94"
             className="section"
         >
-            <div className="jeans">
-                <p className="header">
+            <article className="jeans">
+                <h2 className="header">
                     {data.home.jeans.header}
-                </p>
-                <p className="main">
+                </h2>
+                <sub className="main">
                     {data.home.jeans.main}
-                </p>
+                </sub>
                 {data.home.jeans.links.map(({ label, route }, i) => (
                     <NavButton
                         route={route}
@@ -26,7 +26,7 @@ const Section = (props) => {
                         className="link"
                     >{label}</NavButton>))
                 }
-            </div>
+            </article>
         </Box>
     )
 }

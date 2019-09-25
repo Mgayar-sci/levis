@@ -15,6 +15,7 @@
         &:hover{
           color: var(--white);
           background: var(--secondary);
+          border-color: var(--white)
         }
       }
 
@@ -25,6 +26,7 @@
         &:hover{
           color: var(--secondary);
           background: var(--white);
+          border-color: var(--secondary);
         }
       }
 
@@ -35,6 +37,7 @@
         &:hover{
           color: var(--secondary);
           background: var(--white);
+          border-color: var(--secondary);
         }
       }
 

@@ -5,6 +5,7 @@ import './product.scss';
 import Gallery from '../../common/gallery/Gallery';
 import ProductInfo from '../../common/productInfo/ProductInfo';
 import data from '../../../data';
+import Description from '../../common/description/Description';
 
 const { currency, id, price, title, variants } = data.product.info;
 
@@ -23,6 +24,9 @@ export default function Product() {
                         title={title}
                         variants={variants}
                     />
+                </Col>
+                <Col sm={12} >
+                    <Description />
                 </Col>
             </Row>
         </div>

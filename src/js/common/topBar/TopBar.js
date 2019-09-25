@@ -9,12 +9,15 @@ import './top-bar.scss';
 export default function TopBar() {
     return (
         <div className="tob-bar" >
-            <ul className="links" >
+            <ul className="tob-bar__main-links" >
                 {
-                    data.header.tobBar.links.map(({ route, label }) => <li className="link-item"><NavLink to={route} >{label}</NavLink></li>)
+                    data.header.tobBar.links.map(({ route, label },i) => (
+                        <li className="main-link" key={i} >
+                            <NavLink to={route} >{label}</NavLink>
+                        </li>))
                 }
             </ul>
-            <div className="side-links" >
+            <div className="tob-bar__side-links" >
                 <div className="side-link">
                     <NavLink to={data.header.tobBar.signIn} >
                         <BaseIcon size="md" color="secondary" icon={ic_account_circle} />

@@ -21,27 +21,16 @@ const Navigation = ({ brand, menus }) => {
           <div className="nav-left">
             <ul className="menu-horizontal" >
               {
-                menus.map(({ items, title, color }, i) => {
-                  if (i > 4) {
-                    return (
-                      <Menu
-                        key={i}
-                        items={items}
-                        title={title}
-                        color={color}
-                        right
-                      />)
-                  } else {
-                    return (
-                      <Menu
-                        key={i}
-                        items={items}
-                        title={title}
-                        color={color}
-                      />)
-                  }
-                }
-                )
+                menus.map(({ items, title, color }, i) => (
+                  <li key={i} >
+                    <Menu
+                      items={items}
+                      title={title}
+                      color={color}
+                      right
+                    />
+                  </li>
+                ))
               }
             </ul>
           </div>

@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import './product-info.scss';
 import ProductHeader from '../productHeader/ProductHeader';
 import InfoSection from '../infoSection/InfoSection';
+import SelectionSubmit from '../selectionSubmit/SelectionSubmit';
 
 
 export default class ProductInfo extends Component {
@@ -10,7 +11,7 @@ export default class ProductInfo extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            color: this.props.variants.choises[0].value
+            color: ""
         }
         this.handleSelectItem = this.handleSelectItem.bind(this);
     }
@@ -46,7 +47,10 @@ export default class ProductInfo extends Component {
                     />
                 </div>
                 <div className="product-section">
-                    
+                    <SelectionSubmit
+                        handleSelect={this.handleSelectItem}
+                        selectedItems={this.state}
+                    />
                 </div>
             </div>
         )

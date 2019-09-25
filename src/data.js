@@ -21,6 +21,7 @@ import ar from '../src/img/ar.png';
 import en from '../src/img/en.png';
 import v1 from '../src/img/v1.png';
 import v2 from '../src/img/v2.png';
+import front from '../src/img/front.png';
 
 export default {
     theme: {
@@ -981,7 +982,7 @@ export default {
     product: {
         gallery: {
             images: [
-                j1, j2, j3, j4
+                front, j2, j3, j4
             ]
         },
         info: {

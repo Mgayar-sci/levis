@@ -23,16 +23,22 @@ export default class Gallery extends Component {
                 <div className="imgs" >
                     {
                         data.product.gallery.images.map((img, i) => (
-                            <div className="img-container" onClick={() => this.handleClick(img)} >
+                            <div
+                                className={`img-container ${activeImage === img ? "active" : ""}`}
+                                onClick={() => this.handleClick(img)}
+                            >
                                 <img src={img} key={i} />
                             </div>
                         ))
                     }
                 </div>
                 <div className="showcase" >
-                        <div className="showcase-img">
-                            <img src={activeImage}  />
-                        </div>
+                    <img
+                        src={activeImage}
+                        style={{
+
+                        }}
+                    />
                 </div>
             </div>
         )

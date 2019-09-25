@@ -4,12 +4,12 @@ import NavButton from '../navButton/NavButton';
 
 const Categorycard = ({ img, route, label }) => {
     return (
-        <div className="category-card">
+        <section className="category-card">
             <img alt="category" className="category-img" src={img} />
             <NavButton variant="primary" outlined to={route} >
                 {label}
             </NavButton>
-        </div>
+        </section>
     )
 }
 

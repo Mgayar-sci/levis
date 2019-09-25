@@ -118,7 +118,7 @@ class ProductsSearch extends React.Component {
                             </div>
                             <div className="show-more flex-center" >
                                 <button
-                                    className="btn btn-more"
+                                    className="btn button--primary py-3 px-5 "
                                 >
                                     show more
                                 </button>

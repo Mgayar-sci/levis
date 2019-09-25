@@ -6,14 +6,14 @@ const Banner = ({ title, sub, background }) => {
         backgroundImage: `url(${background})`,
     };
     return (
-        <div style={style} className="banner" >
+        <section style={style} className="banner" >
             <h2 className="banner-title" >
                 {title}
             </h2>
             <sub className="banner-subtitle" >
                 {sub}
             </sub>
-        </div>
+        </section>
     )
 }
 

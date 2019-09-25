@@ -7,7 +7,7 @@ const CategoriesList = data.home.categories.map((i) => <Categorycard {...i} />)
 
 const Categories = (props) => {
     return (
-        <div className="py-5" >
+        <article className="py-5" >
             <SimpleGrid
                 items={CategoriesList}
                 colProps={{
@@ -15,7 +15,7 @@ const Categories = (props) => {
                     md: 4
                 }}
             />
-        </div>
+        </article>
     )
 };
 

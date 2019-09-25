@@ -9,25 +9,22 @@ import './links-carousel.scss';
 
 const LinksCarousel = ({ items }) => {
     return (
-        <div className="carousel-links" >
+        <article className="carousel-links" >
             <Container>
                 <BasicCarousel
                     items={items}
-                    component={({ item: { header, route, label } }) => {
+                    component={({ item: { route, label } }) => {
                         return (
-                            <div className="carousel-element">
-                                {/*<p className="title" >
-                                    {header}
-                        </p>*/}
+                            <section className="carousel-element">
                                 <NavLink className="link" to={route} >
                                     {label}
                                 </NavLink>
-                            </div>
+                            </section>
                         )
                     }}
                 />
             </Container>
-        </div>
+        </article>
     )
 }
 

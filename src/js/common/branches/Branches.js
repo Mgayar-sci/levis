@@ -14,15 +14,15 @@ const Branches = () => {
     };
 
     return (
-        <div style={style} className="branches" >
+        <section style={style} className="branches" >
             <div className="overly" >
                 <img src={data.home.branches.logo} className="logo" alt="logo" />
-                <p className="header" >
+                <h2 className="header" >
                     {data.home.branches.header}
-                </p>
-                <p className="sub" >
+                </h2>
+                <sub className="sub" >
                     {data.home.branches.sub}
-                </p>
+                </sub>
                 <Container className="branches-grid" >
                     <SimpleGrid
                         items={BranchesList}
@@ -36,7 +36,7 @@ const Branches = () => {
                     {data.home.branches.moreLink.label}
                 </NavButton>
             </div>
-        </div>
+        </section>
     )
 }
 
