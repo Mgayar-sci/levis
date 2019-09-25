@@ -15,7 +15,7 @@ const BasicCarousel = ({ items, carouselProps, component }) => {
             <Carousel
                 nextIcon={NextIcon}
                 prevIcon={PrevIcon}
-                interval={300000000000}
+                interval={30000}
                 pauseOnHover
                 {...carouselProps}
             >{
