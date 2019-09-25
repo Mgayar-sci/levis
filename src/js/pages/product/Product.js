@@ -1,12 +1,11 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 
 import './product.scss';
 import Gallery from '../../common/gallery/Gallery';
 import ProductInfo from '../../common/productInfo/ProductInfo';
 import data from '../../../data';
 import Description from '../../common/description/Description';
-import { NavLink } from 'react-router-dom';
 import MultiCarousel from '../../common/multiCarousel/MultiCarousel';
 import TrendingItem from '../../common/trendingItem/TrendingItem';
 import Afterpay from '../../common/afterpay/Afterpay';
@@ -64,13 +63,15 @@ export default function Product() {
                                 text={afterpay.text}
                             />
                         </Col>
-                        <Col xs={12} sm={12} md={12} lg={6} >
+                        <Col xs={12} sm={12} md={12} lg={6} className="pb-5" >
                             <h2>Recommended for you</h2>
-                            <MultiCarousel
-                                itemsData={data.home.trending.products}
-                                sizes={sizes}
-                                Component={TrendingItem}
-                            />
+                            <Container fluid>
+                                <MultiCarousel
+                                    itemsData={data.home.trending.products}
+                                    sizes={sizes}
+                                    Component={TrendingItem}
+                                />
+                            </Container>
                         </Col>
                     </Row>
                 </Col>
