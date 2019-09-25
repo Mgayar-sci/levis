@@ -16,26 +16,16 @@ const { currency, id, price, title, variants, description, afterpay } = data.pro
 const sizes = [
     {
         minWidth: 0,
-        maxWidth: 400,
+        maxWidth: 500,
         col: 12,
         itemsPerView: 1
     }, {
-        minWidth: 401,
-        maxWidth: 600,
+        minWidth: 501,
+        maxWidth: 800,
         col: 6,
         itemsPerView: 2
     }, {
-        minWidth: 601,
-        maxWidth: 900,
-        col: 4,
-        itemsPerView: 3
-    }, {
-        minWidth: 901,
-        maxWidth: 1200,
-        col: 4,
-        itemsPerView: 3
-    }, {
-        minWidth: 1201,
+        minWidth: 801,
         maxWidth: 50000,
         col: 4,
         itemsPerView: 3
@@ -47,10 +37,10 @@ export default function Product() {
     return (
         <div className="product container-fluid" >
             <Row>
-                <Col sm={6} >
+                <Col sm={12} md={12} lg={6} >
                     <Gallery />
                 </Col>
-                <Col sm={6} >
+                <Col sm={12} md={12} lg={6} >
                     <ProductInfo
                         currency={currency}
                         id={id}
@@ -66,16 +56,15 @@ export default function Product() {
                 </Col>
                 <Col xs={12}>
                     <Row>
-                        <Col sm={6} >
+                        <Col xs={12} sm={12} md={12} lg={6} >
                             <Afterpay
-
                                 link="/"
                                 logo={afterpay.logo}
                                 background={afterpay.background}
                                 text={afterpay.text}
                             />
                         </Col>
-                        <Col sm={6} >
+                        <Col xs={12} sm={12} md={12} lg={6} >
                             <h2>Recommended for you</h2>
                             <MultiCarousel
                                 itemsData={data.home.trending.products}

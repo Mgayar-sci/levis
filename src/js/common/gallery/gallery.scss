@@ -2,7 +2,6 @@
   display: flex;
   width: 100%;
   .imgs {
-    flex: 0 0 8rem;
     margin-right: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -29,10 +28,22 @@
     align-items: center;
     justify-content: center;
     background: rgb(235, 235, 235);
+    border: 1px solid silver;
     img {
       display: block;
-      border: 1px solid silver;
       max-width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .gallery {
+    .imgs {
+      .img-container {
+        width: 5rem;
+        height: 5rem;
+        margin: 0.2rem;
+      }
     }
   }
 }

@@ -1,13 +1,37 @@
-.selectionSubmit{
-    .qty{
-        span{
-            text-transform: uppercase;
-            font-size: 2rem;
-            font-weight: bold;
-        }
+.selectionSubmit {
+  padding: 2rem 8rem 0 0;
+  .qty {
+    display: flex;
+    align-items: center;
+    span {
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: bold;
     }
+  }
+  padding-right: 6rem;
+  button {
+    padding: 1rem;
+    flex-grow: 1;
+  }
+}
 
-    button{
-        padding: 1rem 4rem;
+@media only screen and (max-width: 550px) {
+  .selectionSubmit {
+    padding-right: 0;
+    flex-direction: column;
+    align-items: initial;
+    & > * {
+      margin: 1rem;
     }
+    .qty {
+      .dropdown {
+          flex-grow: 1;
+          margin-right: 0 !important;
+          button{
+            width: 100%
+          }
+      }
+    }
+  }
 }

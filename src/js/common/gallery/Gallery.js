@@ -35,9 +35,7 @@ export default class Gallery extends Component {
                 <div className="showcase" >
                     <img
                         src={activeImage}
-                        style={{
-
-                        }}
+                        alt="product image"
                     />
                 </div>
             </div>

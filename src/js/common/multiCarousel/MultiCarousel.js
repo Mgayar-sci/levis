@@ -17,7 +17,7 @@ export default function MultiCarousel({ itemsData, sizes, Component }) {
                                     <SimpleGrid
                                         items={item}
                                         colProps={{
-                                            sm: col
+                                            xs: col
                                         }}
                                         Component={Component}
                                     />)}

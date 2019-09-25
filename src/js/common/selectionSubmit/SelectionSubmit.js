@@ -5,7 +5,7 @@ import './selection-submit.scss';
 
 export default function SelectionSubmit({ handleSelect, selectedItems }) {
     return (
-        <div className="selectionSubmit flex-start py-4" >
+        <div className="selectionSubmit flex-start" >
             <div className="qty">
                 <span>
                     Qty
@@ -14,13 +14,13 @@ export default function SelectionSubmit({ handleSelect, selectedItems }) {
                     items={[1, 2, 3, 4, 5]}
                     handleSelect={(val) => handleSelect('qty', val)}
                     selectedItem={selectedItems['qty']}
-                    rootClass="mx-4"
+                    rootClass="mx-2"
                 />
             </div>
-            <button className="button button--white btn mx-4" >
+            <button className="button button--white btn mx-2" >
                 add To bag
             </button>
-            <button className="btn button button--secondary mx-4 " >
+            <button className="btn button button--secondary mx-2 " >
                 checkout
             </button>
         </div>

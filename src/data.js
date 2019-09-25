@@ -987,7 +987,7 @@ export default {
     product: {
         gallery: {
             images: [
-                f1, f3, f4
+                f1, f3, f4,f1
             ]
         },
         info: {
