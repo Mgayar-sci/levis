@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ee17e086132e72ac4452050b3879a2b",
+    "revision": "ff0e8b99544f6baf467f7c59dad395b9",
     "url": "/levis/index.html"
   },
   {
-    "revision": "35a4951dbabd0e54210e",
-    "url": "/levis/static/css/main.c1f9ff95.chunk.css"
+    "revision": "89bbada549625a970cc1",
+    "url": "/levis/static/css/main.2f5b67b6.chunk.css"
   },
   {
-    "revision": "19ee43b431880a2844b7",
-    "url": "/levis/static/js/2.1023936b.chunk.js"
+    "revision": "c8be813dbd7999f004a3",
+    "url": "/levis/static/js/2.183a9842.chunk.js"
   },
   {
-    "revision": "35a4951dbabd0e54210e",
-    "url": "/levis/static/js/main.e161598c.chunk.js"
+    "revision": "89bbada549625a970cc1",
+    "url": "/levis/static/js/main.036363a1.chunk.js"
   },
   {
     "revision": "37f8d44f4b2aaa46da7d",
