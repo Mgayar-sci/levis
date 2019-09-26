@@ -24,7 +24,11 @@ const Section = (props) => {
                         route={route}
                         variant="white"
                         className="link"
-                    >{label}</NavButton>))
+                        key={i}
+                    >
+                        {label}
+                    </NavButton>
+                ))
                 }
             </article>
         </Box>

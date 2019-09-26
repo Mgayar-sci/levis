@@ -27,7 +27,7 @@ export default class Gallery extends Component {
                                 className={`img-container ${activeImage === img ? "active" : ""}`}
                                 onClick={() => this.handleClick(img)}
                             >
-                                <img src={img} key={i} />
+                                <img src={img} key={i} alt="product image" />
                             </div>
                         ))
                     }

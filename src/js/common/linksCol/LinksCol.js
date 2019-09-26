@@ -11,8 +11,8 @@ const LinksCol = ({ header, links }) => {
             </p>
             <ul className="links-list" >
                 {
-                    links.map(({ route, label }) => (
-                        <NavLink key={route} className="link-item" to={route} >
+                    links.map(({ route, label },i) => (
+                        <NavLink key={i} className="link-item" to={route} >
                             {label}
                         </NavLink>
                     ))

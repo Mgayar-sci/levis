@@ -16,12 +16,12 @@ const Footer = (props) => {
                         <div className="links" >
                             <div className="nav-links" >
                                 {
-                                    data.footer.navLinks.map(({ header, links }) => <LinksCol header={header} links={links} />)
+                                    data.footer.navLinks.map(({ header, links },i) => <LinksCol key={i} header={header} links={links} />)
                                 }
                             </div>
                             <div className="social" >
                                 {
-                                    data.footer.socialLinks.map(({ type, link }) => <SocialIcon type={type} link={link} />)
+                                    data.footer.socialLinks.map(({ type, link },i) => <SocialIcon key={i} type={type} link={link} />)
                                 }
                             </div>
                         </div>

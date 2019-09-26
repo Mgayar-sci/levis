@@ -108,8 +108,8 @@ class NavMenu extends React.Component {
                                 }
                                 <li>
                                     <ul className="extra-links" >
-                                        {extra.map(({ label, route }) => (
-                                            <li>
+                                        {extra.map(({ label, route },i) => (
+                                            <li key={i} >
                                                 <NavLink to={route} >
                                                     {label}
                                                 </NavLink>

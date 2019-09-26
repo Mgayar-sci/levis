@@ -8,8 +8,8 @@ export default function MultiCarousel({ itemsData, sizes, Component }) {
     return (
         <div className="multi-carousel" >
             {
-                sizes.map(({ maxWidth, minWidth, col, itemsPerView }) => (
-                    <Media query={{ maxWidth, minWidth }}>
+                sizes.map(({ maxWidth, minWidth, col, itemsPerView },i) => (
+                    <Media key={i} query={{ maxWidth, minWidth }}>
                         {match => match && (
                             <BasicCarousel
                                 items={_chunk(itemsData, itemsPerView)}

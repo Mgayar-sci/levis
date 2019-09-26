@@ -1,7 +1,6 @@
 import React from 'react';
 import Tag from '../tag/Tag';
 import './selection-group.scss';
-import { Tooltip } from 'react-bootstrap';
 
 export default function SelectionGroup({ title, choises, handleSelect, selectedItems }) {
     return (

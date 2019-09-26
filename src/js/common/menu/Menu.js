@@ -21,8 +21,8 @@ const Menu = ({ items, title, color, right }) => {
                         {
                             items.map(({ title, links }, i) => {
                                 return (
-                                    <Dropdown.Item>
-                                        <MenuRow title={title} links={links} key={i} />
+                                    <Dropdown.Item key={i}>
+                                        <MenuRow title={title} links={links} />
                                     </Dropdown.Item>
                                 )
                             })

@@ -13,8 +13,8 @@ export default function DropdownMenu({
                 <span className="dropdown-title">{title || selectedItem}</span>
             </Dropdown.Toggle>
             <Dropdown.Menu className={`${buttonClassName} ${right && "right"}`}>
-                {items.map(i => (
-                    <Dropdown.Item onClick={() => handleSelect(i)} key={i}>
+                {items.map((i, index) => (
+                    <Dropdown.Item key={index} onClick={() => handleSelect(i)} key={i}>
                         {i}
                     </Dropdown.Item>
                 ))}
