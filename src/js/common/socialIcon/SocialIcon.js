@@ -15,7 +15,7 @@ const icons = {
 const SocialIcon = ({ type, link }) => {
     return (
         <a href={link} className="social-icon" >
-            <BaseIcon icon={icons[type]} color="primary-light" size="md" />
+            <BaseIcon icon={icons[type]} color="primary" size="md" />
         </a>
     )
 }

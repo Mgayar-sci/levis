@@ -20,7 +20,7 @@ export default function TopBar() {
             <div className="tob-bar__side-links" >
                 <div className="side-link">
                     <NavLink to={data.header.tobBar.signIn} >
-                        <BaseIcon size="md" color="secondary" icon={ic_account_circle} />
+                        <BaseIcon size="md" color="white" icon={ic_account_circle} />
                         <span>Sign in</span>
                     </NavLink>
                 </div>

@@ -10,16 +10,17 @@ import LinksCarousel from '../../common/linksCarousel/LinksCarousel';
 import data from '../../../data';
 
 import './home.scss';
+import BasicCarousel from '../../common/basicCarousel/BasicCarousel';
 
 function Home() {
     return (
         <main className="home">
             <LinksCarousel items={data.home.carouselLinks} />
             <div className="my-5 container-fluid" >
-                <Banner
-                    title={data.home.banner.title}
-                    sub={data.home.banner.sub}
-                    background={data.home.banner.background}
+                <BasicCarousel
+                    items={data.home.banner}
+                    component={Banner}
+                    iconsColor="white"
                 />
             </div>
             <div className="my-5 container-fluid">

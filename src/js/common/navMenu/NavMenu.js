@@ -53,7 +53,7 @@ class NavMenu extends React.Component {
                     className="btn btn-open"
                     onClick={handleOpenMenu}
                 >
-                    <BaseIcon color="primary-light" icon={ic_menu} size="md" />
+                    <BaseIcon color="primary" icon={ic_menu} size="md" />
                 </button>
                 <div
                     className={
@@ -70,7 +70,7 @@ class NavMenu extends React.Component {
                                         onClick={handleCloseMenu}
                                     >
                                         <BaseIcon
-                                            color="secondary"
+                                            color="white"
                                             className=""
                                             icon={ic_close}
                                             size="md"
@@ -81,7 +81,7 @@ class NavMenu extends React.Component {
                                     <NavLink to={signIn} >
                                         <BaseIcon
                                             size="md"
-                                            color="secondary"
+                                            color="white"
                                             icon={ic_account_circle}
                                         />
                                         <span>Sign in</span>
@@ -101,7 +101,7 @@ class NavMenu extends React.Component {
                                             </span>
                                             <BaseIcon
                                                 size="md"
-                                                color="primary-light"
+                                                color="primary"
                                                 icon={ic_keyboard_arrow_right}
                                             />
                                         </div>))
@@ -131,7 +131,7 @@ class NavMenu extends React.Component {
                             <ul className="menus-list" >
                                 <li className="side-menu-header flex-between " >
                                     <BaseIcon
-                                        color="secondary"
+                                        color="white"
                                         className=""
                                         icon={ic_keyboard_arrow_left}
                                         size="md"
@@ -141,7 +141,7 @@ class NavMenu extends React.Component {
                                         {header}
                                     </span>
                                     <BaseIcon
-                                        color="secondary"
+                                        color="white"
                                         className=""
                                         icon={ic_close}
                                         size={28}

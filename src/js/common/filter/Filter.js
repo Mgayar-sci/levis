@@ -45,7 +45,7 @@ export default class Filter extends React.Component {
                                 <BaseIcon
                                     size="md"
                                     icon={ic_filter_list}
-                                    color="primary-light"
+                                    color="primary"
                                 />
                                 {`${displayTagsNo} `}
                                 filters
@@ -57,7 +57,7 @@ export default class Filter extends React.Component {
                                 clear all
                             </button>
                             <BaseIcon
-                                color="prmiary-light"
+                                color="prmiary"
                                 icon={ic_close}
                                 size="sm"
                                 onClick={handleHide}

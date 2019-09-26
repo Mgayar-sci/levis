@@ -5,16 +5,16 @@ import BaseIcon from '../baseIcon/BaseIcon';
 import { ic_chevron_right } from 'react-icons-kit/md/ic_chevron_right';
 import { ic_chevron_left } from 'react-icons-kit/md/ic_chevron_left';
 
-const NextIcon = <BaseIcon icon={ic_chevron_right} size="lg" color="primary" />
-const PrevIcon = <BaseIcon icon={ic_chevron_left} size="lg" color="primary" />
+const NextIcon = ({ color }) => <BaseIcon icon={ic_chevron_right} size="lg" color={color||"primary"} />
+const PrevIcon = ({ color }) => <BaseIcon icon={ic_chevron_left} size="lg" color={color||"primary"} />
 
-const BasicCarousel = ({ items, carouselProps, component }) => {
+const BasicCarousel = ({ items, carouselProps, component, iconsColor }) => {
     const Component = component;
     return (
         <div className="carousel-container" >
             <Carousel
-                nextIcon={NextIcon}
-                prevIcon={PrevIcon}
+                nextIcon={<NextIcon color={iconsColor} />}
+                prevIcon={<PrevIcon color={iconsColor} />}
                 interval={30000}
                 pauseOnHover
                 {...carouselProps}

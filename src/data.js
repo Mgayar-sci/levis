@@ -1,5 +1,7 @@
 import logo from '../src/img/logo.png';
 import banner from '../src/img/banner.png';
+import banner2 from '../src/img/banner2.jpg';
+import banner3 from '../src/img/banner3.jpg';
 import branches from '../src/img/branches.png';
 import logo360 from '../src/img/360.png';
 import kids from '../src/img/kids.png';
@@ -30,10 +32,9 @@ import afterpay from '../src/img/afterpay.png';
 
 export default {
     theme: {
-        'primary': '#000000',
-        'primary-light': '#333333',
-        'secondary': '#ffffff',
-        'secondary-light': '#bebebe',
+        'primary': '#333333',
+        'white': '#ffffff',
+        'secondary':'#c43730'
     },
     header: {
         tobBar: {
@@ -673,11 +674,19 @@ export default {
             }
         ]
         ,
-        banner: {
+        banner: [{
             title: "get 50% off sale select styled",
             sub: 'end of season sale',
             background: banner
-        },
+        },{
+            title: "get 50% off sale select styled",
+            sub: 'end of season sale',
+            background: banner2
+        },{
+            title: "get 50% off sale select styled",
+            sub: 'end of season sale',
+            background: banner3
+        }],
         branches: {
             background: branches,
             logo: logo360,

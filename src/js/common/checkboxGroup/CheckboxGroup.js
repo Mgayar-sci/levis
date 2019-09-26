@@ -1,7 +1,5 @@
 import React from 'react';
 import './checkbox-group.scss';
-import BaseIcon from '../baseIcon/BaseIcon';
-import { ic_check } from 'react-icons-kit/md/ic_check';
 
 import './checkbox-group.scss'
 

@@ -21,7 +21,12 @@ export default function Tag({ label, onClick, onClose, close = true, square, dis
             <span className="tag-label" >
                 {label}
             </span>
-            {close && <BaseIcon className="tag-icon" icon={ic_close} color="red" size="sm" onClick={onClose} />}
+            {close && <BaseIcon
+                className="tag-icon"
+                icon={ic_close}
+                color="secondary"
+                size="sm"
+                onClick={onClose} />}
         </div>
     )
 }

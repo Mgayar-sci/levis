@@ -1,9 +1,9 @@
 .banner{
     background-size: cover;
-    padding: 7.5rem 0 2rem;
+    padding: 5rem 0 ;
     text-align: center;
     color: var(--white);
-
+    flex-direction: column;
     .banner-title{
         font-size: 4rem;
         text-transform: uppercase;

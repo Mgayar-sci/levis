@@ -19,7 +19,7 @@ const Subscripe = ({ title, body }) => {
                     inputClass="email"
                     btnClass="btn-email"
                     iconProps={{
-                        color:"secondary",
+                        color:"white",
                         size:"md"
                     }}
                 />

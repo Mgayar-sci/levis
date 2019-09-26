@@ -24,7 +24,7 @@ export default function ProductHeader({
                     <BaseIcon
                         size="md"
                         className="favorite"
-                        color="red"
+                        color="secondary"
                         icon={ic_favorite_border}
                         onClick={onLike}
                     />
